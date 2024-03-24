@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class PlayerMotor : MonoBehaviour
 {
@@ -23,6 +24,14 @@ public class PlayerMotor : MonoBehaviour
     {
         isGrounded = controller.isGrounded; 
     }
+
+    public void OnCollisionEnter(Collision col) { 
+        print("collided"); 
+        print(col); 
+        if (col.gameObject.tag == "TV") 
+            SceneManager.LoadScene("Evil"); 
+    }
+
     public void ProcessMove(Vector2 input) { 
         Vector3 moveDirection = Vector3.zero; 
         moveDirection.x = input.x; 
