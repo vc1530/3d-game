@@ -1,3 +1,4 @@
 library filter=lfs diff=lfs merge=lfs -text
 Assets filter=lfs diff=lfs merge=lfs -text
 Library filter=lfs diff=lfs merge=lfs -text
+Assets/Videos/Teletubbies.mov filter=lfs diff=lfs merge=lfs -text
