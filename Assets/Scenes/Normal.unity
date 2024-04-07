@@ -292,7 +292,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.6
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -426,6 +426,7 @@ GameObject:
   - component: {fileID: 825321290}
   - component: {fileID: 825321289}
   - component: {fileID: 825321288}
+  - component: {fileID: 825321292}
   m_Layer: 0
   m_Name: TV
   m_TagString: TV
@@ -520,6 +521,22 @@ Transform:
   - {fileID: 1149358878}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &825321292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825321287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530370d97fe164c588afc7742fdc3c0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vid: {fileID: 1084723366}
+  Teletubbies: {fileID: 32900000, guid: e8d5239295d7246a08c598de6c94b2d0, type: 3}
+  SesameStreet: {fileID: 32900000, guid: 830941c78a3c04825bbb7058c84e554a, type: 3}
+  Dora: {fileID: 32900000, guid: 44c518dda0ee0489db9a8256c2d91735, type: 3}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
