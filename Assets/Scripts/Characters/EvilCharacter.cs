@@ -8,11 +8,15 @@ public class EvilCharacter : MonoBehaviour
 
     private Transform player;
     private bool isGood = false;
+    
+    /*
+    public Color goodColor = Color.green;
+    */
+
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        GetComponent<Renderer>().material.color = Color.red;
     }
 
     void Update()
@@ -38,22 +42,13 @@ public class EvilCharacter : MonoBehaviour
 
     public void Goodify(Color goodColor)
     {
+        
+        Debug.Log("Goodify method called");
         isGood = true;
         GetComponent<Renderer>().material.color = goodColor;
+        Debug.Log("Character color changed to " + goodColor);
         // Stop chasing or attacking the player
         // Optionally, you could disable the EvilCharacter's movement or attack components here
         enabled = false;
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (isGood && collision.collider.CompareTag("EvilCharacter"))
-        {
-            // Turn the "good" character back to evil
-            isGood = false;
-            GetComponent<Renderer>().material.color = Color.red; // Change to your original evil color
-            // Optionally, you could re-enable movement or attack components here
-            enabled = true;
-        }
     }
 }

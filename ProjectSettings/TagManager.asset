@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Floor
   - TV
+  - EvilCharacter
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - EvilLayer
   - Water
   - UI
   - 
