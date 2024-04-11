@@ -508,10 +508,6 @@ GameObject:
   - component: {fileID: 1055044283}
   - component: {fileID: 1055044282}
   - component: {fileID: 1055044286}
-<<<<<<< HEAD
-=======
-  - component: {fileID: 1055044287}
->>>>>>> main
   m_Layer: 3
   m_Name: EvilCharacter
   m_TagString: EvilCharacter
@@ -614,46 +610,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1055044281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: b3ef3ba2d0d3f4862b3cdf66038af04a, type: 3}
-=======
-  m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
->>>>>>> main
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 100
   attackRange: 10
   attackDamage: 10
-<<<<<<< HEAD
-=======
---- !u!54 &1055044287
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1055044281}
-  serializedVersion: 4
-  m_Mass: 200
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 84
-  m_CollisionDetection: 1
->>>>>>> main
 --- !u!20 &1411662793 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 8799911585150361092, guid: 93bed56ee7cca48af84a2872184feab2,
@@ -843,7 +805,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   goodColor: {r: 0, g: 1, b: 0, a: 1}
-<<<<<<< HEAD
   bulletSpawnPoint: {fileID: 1934469481}
   bulletPrefab: {fileID: 452479749998551533, guid: 0b326ee1574d4544c9fb69649a89db2e,
     type: 3}
@@ -855,9 +816,6 @@ Transform:
   m_PrefabInstance: {fileID: 1816169267}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1457073823
-=======
---- !u!114 &1457073819
->>>>>>> main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -870,61 +828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-<<<<<<< HEAD
   currentHealth: 100
-=======
-  currentHealth: 0
---- !u!54 &1457073824
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457073810}
-  serializedVersion: 4
-  m_Mass: 200
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 1
---- !u!136 &1457073825
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457073810}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.6
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
->>>>>>> main
 --- !u!1 &1484472457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,19 +1123,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       insertIndex: -1
-<<<<<<< HEAD
       addedObject: {fileID: 1457073823}
-=======
-      addedObject: {fileID: 1457073819}
-    - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1457073825}
-    - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1457073824}
->>>>>>> main
   m_SourcePrefab: {fileID: 100100000, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
 --- !u!1 &1908090654
 GameObject:
@@ -1246,10 +1138,6 @@ GameObject:
   - component: {fileID: 1908090656}
   - component: {fileID: 1908090655}
   - component: {fileID: 1908090659}
-<<<<<<< HEAD
-=======
-  - component: {fileID: 1908090660}
->>>>>>> main
   m_Layer: 3
   m_Name: EvilCharacter
   m_TagString: EvilCharacter
@@ -1352,46 +1240,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1908090654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: b3ef3ba2d0d3f4862b3cdf66038af04a, type: 3}
-=======
-  m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
->>>>>>> main
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 100
   attackRange: 10
   attackDamage: 10
-<<<<<<< HEAD
-=======
---- !u!54 &1908090660
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1908090654}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 1
->>>>>>> main
 --- !u!1 &1930396918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,10 +1259,6 @@ GameObject:
   - component: {fileID: 1930396920}
   - component: {fileID: 1930396919}
   - component: {fileID: 1930396923}
-<<<<<<< HEAD
-=======
-  - component: {fileID: 1930396924}
->>>>>>> main
   m_Layer: 3
   m_Name: EvilCharacter
   m_TagString: EvilCharacter
@@ -1513,44 +1363,11 @@ MonoBehaviour:
   m_EditorHideFlags: 0
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: b3ef3ba2d0d3f4862b3cdf66038af04a, type: 3}
-=======
-  m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
->>>>>>> main
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 100
   attackRange: 10
   attackDamage: 10
-<<<<<<< HEAD
-=======
---- !u!54 &1930396924
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930396918}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 1
->>>>>>> main
 --- !u!1 &1933541158
 GameObject:
   m_ObjectHideFlags: 0
