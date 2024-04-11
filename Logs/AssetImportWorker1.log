@@ -1464,14 +1464,17 @@ Unloading 41 unused Assets / (318.9 KB). Loaded Objects now: 5885.
 Memory consumption went from 216.5 MB to 216.2 MB.
 Total: 10.110900 ms (FindLiveObjects: 1.611900 ms CreateObjectMapping: 0.954500 ms MarkObjects: 7.317900 ms  DeleteObjects: 0.224300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/precompiled-assembly-types:GLTFSerialization: b24483c4e620916e34ac00744bf4e781 -> 
+  custom:scripting/precompiled-assembly-types:SketchfabPlugin: 5079291b644e0c6bb6117de5c68b6a40 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/precompiled-assembly-types:Ionic.Zip.Unity: 3a802d8e48f75e455c0cae5e0511875e -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
