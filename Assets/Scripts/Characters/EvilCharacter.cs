@@ -25,8 +25,8 @@ public class EvilCharacter : MonoBehaviour
         {
             if (Vector3.Distance(transform.position, player.position) > attackRange)
             {
-                transform.LookAt(player);
-                transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
+                //transform.LookAt(player);
+                transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
             }
             else
             {

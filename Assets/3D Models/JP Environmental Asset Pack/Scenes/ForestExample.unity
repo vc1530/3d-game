@@ -1090,7 +1090,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8673,7 +8672,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14458,7 +14456,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -44225,7 +44222,7 @@ PrefabInstance:
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
@@ -44240,7 +44237,7 @@ PrefabInstance:
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.2
+      value: 3.083
       objectReference: {fileID: 0}
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
@@ -44310,17 +44307,17 @@ PrefabInstance:
     - target: {fileID: 7238565672315307510, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.333
       objectReference: {fileID: 0}
     - target: {fileID: 7238565672315307510, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.04
+      value: 0.084
       objectReference: {fileID: 0}
     - target: {fileID: 7238565672315307510, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.02
+      value: 0.014
       objectReference: {fileID: 0}
     - target: {fileID: 7238565672315307510, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
