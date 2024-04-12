@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EvilCharacter : MonoBehaviour
 {
-    public float movementSpeed = 100f;
+    public float movementSpeed = 2f;
     public float attackRange = 10f;
     public float attackDamage = 10f;
 
@@ -25,8 +25,9 @@ public class EvilCharacter : MonoBehaviour
         {
             if (Vector3.Distance(transform.position, player.position) > attackRange)
             {
-                //transform.LookAt(player);
-                transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
+                transform.LookAt(player);
+                //transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
+                transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
             }
             else
             {
