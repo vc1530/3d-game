@@ -3,12 +3,16 @@ using UnityEngine;
 public class EvilCharacter : MonoBehaviour
 {
     public float movementSpeed = 2f;
-    public float attackRange = 10f;
+    public float attackRange = 3f;
     public float attackDamage = 10f;
 
     private Transform player;
     private bool isGood = false;
-    
+
+    private bool isAttacking = false;
+    private Rigidbody rb;
+
+
     /*
     public Color goodColor = Color.green;
     */
@@ -16,23 +20,48 @@ public class EvilCharacter : MonoBehaviour
 
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void Update()
     {
-        if (!isGood) // Only move or attack if not "good"
+        //if (!isGood) // Only move or attack if not "good"
+        //{
+        //    if (Vector3.Distance(transform.position, player.position) > attackRange)
+        //    {
+        //        //transform.LookAt(player);
+        //        //transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
+        //        //transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
+        //    }
+        //    else
+        //    {
+        //        AttackPlayer();
+        //    }
+        //}
+
+        if (player != null)
         {
-            if (Vector3.Distance(transform.position, player.position) > attackRange)
+            // Calculate the direction towards the player
+            Vector3 direction = player.position - transform.position;
+
+            // Move towards the player
+            rb.velocity = direction.normalized * movementSpeed;
+
+            // Check if the enemy is within attack range
+            if (direction.magnitude <= attackRange && !isAttacking)
             {
-                transform.LookAt(player);
-                //transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
-                transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
+                // Attack the player
+                AttackPlayer();
             }
             else
             {
-                AttackPlayer();
+                // Stop attacking
+                isAttacking = false;
             }
+
+            // Rotate the enemy to face the player
+            transform.LookAt(player);
         }
     }
 
