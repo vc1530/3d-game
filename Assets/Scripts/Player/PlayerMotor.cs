@@ -9,10 +9,10 @@ public class PlayerMotor : MonoBehaviour
     private Vector3 playerVelocity; 
     private bool isGrounded; 
 
+    public GameObject TV; 
     public float speed = 5f; 
     public float gravity = -9.8f; 
     public float jumpHeight = 3f; 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +26,20 @@ public class PlayerMotor : MonoBehaviour
     }
 
     public void OnCollisionEnter(Collision col) { 
-        print("collided"); 
-        print(col); 
-        if (col.gameObject.tag == "TV") 
-            SceneManager.LoadScene("Evil"); 
+        if (col.gameObject.tag == "TV") { 
+            print(TV.GetComponent<RemoteControl>().currentClip); 
+            switch (TV.GetComponent<RemoteControl>().currentClip.name) { 
+                case "Teletubbies": 
+                    SceneManager.LoadScene("EvilTeletubbiesForest"); 
+                    break; 
+                case "Minions": 
+                    SceneManager.LoadScene("EvilMinionMap"); 
+                    break; 
+                case "Barney": 
+                    SceneManager.LoadScene("EvilBarney"); 
+                    break; 
+            }
+        } 
     }
 
     public void ProcessMove(Vector2 input) { 

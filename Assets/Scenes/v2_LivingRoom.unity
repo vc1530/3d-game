@@ -616,6 +616,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TV_LOD
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e1ee6e498cbdf54785fc872fb7e80a8,
+        type: 3}
+      propertyPath: m_TagString
+      value: TV
+      objectReference: {fileID: 0}
     - target: {fileID: 4411300465214282299, guid: 2e1ee6e498cbdf54785fc872fb7e80a8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1231,7 +1236,7 @@ PrefabInstance:
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.76
+      value: 1.21
       objectReference: {fileID: 0}
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
@@ -1241,7 +1246,7 @@ PrefabInstance:
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.9
+      value: -7.64
       objectReference: {fileID: 0}
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
@@ -1442,6 +1447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aaa6673990e74fe89d696a84c68ef1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TV: {fileID: 1427131267}
   speed: 5
   gravity: -18
   jumpHeight: 0.5
@@ -3508,9 +3514,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vid: {fileID: 1599222868}
+  Minions: {fileID: 32900000, guid: 976662ff8b67a4c9ea53d5cf8b6cbfd5, type: 3}
   Teletubbies: {fileID: 32900000, guid: e8d5239295d7246a08c598de6c94b2d0, type: 3}
-  SesameStreet: {fileID: 32900000, guid: 830941c78a3c04825bbb7058c84e554a, type: 3}
-  Dora: {fileID: 32900000, guid: 44c518dda0ee0489db9a8256c2d91735, type: 3}
+  Barney: {fileID: 32900000, guid: dc9b096803f9745219fd9d6170f179b0, type: 3}
+  currentClip: {fileID: 0}
 --- !u!23 &1427131270
 MeshRenderer:
   m_ObjectHideFlags: 0
