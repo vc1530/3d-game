@@ -114,7 +114,7 @@
     <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Libraries\SketchfabPlugin.dll" />
     <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Libraries\Ionic.Zip.Unity.dll" />
     <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Shaders\GLTFBumpToNormal.shader" />
-    <None Include="Assets\3D Models\teletuffy\license.txt" />
+    <None Include="Assets\3D Models\Characters\teletuffy\license.txt" />
     <None Include="Assets\3D Models\Brick Project Studio\Apartment Kit\Scenes\BPS Apartment Kit.txt" />
     <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll" />
   </ItemGroup>
