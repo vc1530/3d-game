@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f32e219b-2ad4-4439-8e89-b90d50d444ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Simple Modular Dungeon/Scenes/Modular Dungeon.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Simple Modular Dungeon/Scenes/Modular Dungeon.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3d-game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3d-game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Barney_Skin.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Barney_Skin.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EvilMinionMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EvilMinionMap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/barney_tex_base_color.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/barney_tex_base_color.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/barney_updated1.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/barney_updated1.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +48,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "tq6",
+    "git-widget-placeholder": "tq7",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,6 +114,7 @@
       <workItem from="1712829454570" duration="1867000" />
       <workItem from="1712901589168" duration="592000" />
       <workItem from="1713099560218" duration="580000" />
+      <workItem from="1713150799027" duration="850000" />
     </task>
     <servers />
   </component>
