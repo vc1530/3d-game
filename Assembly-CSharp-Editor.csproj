@@ -40,21 +40,26 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <PropertyGroup>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
-    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
-    <UnityProjectType>Editor:5</UnityProjectType>
-    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
-    <UnityVersion>2022.3.17f1</UnityVersion>
-  </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\AntialiasingEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\TonemappingEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\BloomEditor.cs" />
     <Compile Include="Assets\3D Models\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\SunShaftsEditor.cs" />
+    <Compile Include="Assets\#NVJOB Slender\Example\Environment\Standard Assets\Editor\ImageEffects\CreaseShadingEditor.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -730,6 +735,9 @@
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="glTFast.dots">
+      <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
@@ -739,11 +747,14 @@
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    <Reference Include="glTFast.Editor">
+      <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\glTFast.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
@@ -802,11 +813,11 @@
     <Reference Include="Unity.Timeline">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
@@ -816,6 +827,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="glTFast">
+      <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\glTFast.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>C:\Users\tvuu2\OneDrive\Documents\GitHub\3d-game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
