@@ -7,7 +7,7 @@ public class PlayerMotor : MonoBehaviour
 {
     private CharacterController controller; 
     private Vector3 playerVelocity; 
-    private bool isGrounded; 
+    [SerializeField] private bool isGrounded; 
 
     public float speed = 5f; 
     public float gravity = -9.8f; 
@@ -22,7 +22,7 @@ public class PlayerMotor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isGrounded = controller.isGrounded; 
+        isGrounded = controller.isGrounded; //TODO: It doesn't work?
     }
 
     public void OnCollisionEnter(Collision col) { 
