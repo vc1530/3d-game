@@ -21248,7 +21248,7 @@ MonoBehaviour:
   teletubbies: {fileID: 8300000, guid: a8735bccaa8f7624aa2cbf2c92078f9a, type: 3}
   barney: {fileID: 0}
   minions: {fileID: 0}
-  bfart: {fileID: 0}
+  bfart: {fileID: 8300000, guid: 474a470964681ff4bb3515009bd7e433, type: 3}
   tbfart: {fileID: 0}
   mfart: {fileID: 0}
   laugh: {fileID: 0}

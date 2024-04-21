@@ -8,12 +8,12 @@ public class Bullet : MonoBehaviour
 
     public float lifeTime = 3f;
 
-    private void Start()
+    /*private void Start()
     {
         DestroyBulletAfterDelay();
-    }
+    }*/
 
-    private void OnCollisionEnter(Collision collision)
+    /*private void OnCollisionEnter(Collision collision)
     {
         print("collision"); 
         
@@ -26,10 +26,19 @@ public class Bullet : MonoBehaviour
                 evilCharacter.Goodify();
             }
         }
+    }*/
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("EvilCharacter"))
+        {
+            Destroy(gameObject);
+            other.GetComponent<EvilCharacter>().Goodify();
+        }
     }
 
-    private void DestroyBulletAfterDelay()
+    /*private void DestroyBulletAfterDelay()
     {
         Destroy(gameObject,lifeTime);
-    }
+    }*/
 }
