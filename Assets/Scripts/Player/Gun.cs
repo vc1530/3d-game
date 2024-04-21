@@ -185,13 +185,29 @@ public class Gun : MonoBehaviour
         // Decrease the shooting cooldown timer
         shootingCooldownTimer -= Time.deltaTime;
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            Fire();
+        }
+
         // Check if the player pressed the fire button (e.g., left mouse button)
-        if (Input.GetMouseButtonDown(0) && shootingCooldownTimer <= 0f)
+        /*if (Input.GetMouseButtonDown(0) && shootingCooldownTimer <= 0f)
         {
             // Spawn a bullet
             Shoot();
             
             // Reset the shooting cooldown timer
+            shootingCooldownTimer = shootingCooldown;
+        }*/
+    }
+
+    public void Fire()
+    {
+        if (shootingCooldownTimer <= 0f)
+        {
+            // spawn a bullet
+            Shoot();
+            // resey the shooting cooldown time
             shootingCooldownTimer = shootingCooldown;
         }
     }
@@ -228,12 +244,12 @@ public class Gun : MonoBehaviour
             // Apply force to the bullet in the forward direction
             bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed; // Adjust the speed as needed
 
-            if (hit.collider.CompareTag("EvilCharacter"))
+            /*if (hit.collider.CompareTag("EvilCharacter"))
             {
                 print("hit"); 
                 Destroy(bullet, .5f); 
                 hit.collider.GetComponent<EvilCharacter>().Goodify();
-            }
+            }*/
         }
         else
         {
