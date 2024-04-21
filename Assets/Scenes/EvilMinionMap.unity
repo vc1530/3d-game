@@ -369,9 +369,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 24166096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion14
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3009,9 +3009,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 263644663}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion8
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6206,9 +6206,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 433236816}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion5
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8686,9 +8686,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 598236524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion2
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10317,9 +10317,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 693633355}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion10
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12027,9 +12027,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 755445624}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion9
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13550,9 +13550,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 849194080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion13
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13583,9 +13583,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 854093806}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion11
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20492,9 +20492,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1204728788}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion3
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20692,9 +20692,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1222941064}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion4
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21594,9 +21594,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1276141499}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion1
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23784,9 +23784,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1388273452}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion14
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25015,7 +25015,7 @@ MonoBehaviour:
   evilCharacter: {fileID: 555490385}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
 --- !u!1001 &1447027985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25092,9 +25092,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1448948184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion6
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26449,7 +26449,7 @@ MonoBehaviour:
   evilCharacter: {fileID: 781345815}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
 --- !u!1001 &1524267023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32608,9 +32608,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1820283953}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion7
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33586,9 +33586,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1852550938}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion12
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34322,9 +34322,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1890053932}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion15
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37337,9 +37337,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2088152879}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Minion16
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.02951333, g: 0.022564, b: 0.013816558, a: 1}
+  m_IndirectSpecularColor: {r: 0.02951334, g: 0.022564009, b: 0.01381656, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,9 +132,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3252466}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney4
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1530,9 +1530,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 88135303}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney5
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9435,9 +9435,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 529105672}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney21
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11984,9 +11984,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 695940528}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney16
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14575,9 +14575,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 860982931}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney12
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19409,9 +19409,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1097089206}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney14
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20891,9 +20891,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1150733568}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney10
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21361,9 +21361,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1165816029}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney9
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21879,9 +21879,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1184728609}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney3
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23133,9 +23133,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1268085176}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney24
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23748,9 +23748,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1314195178}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney11
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23893,9 +23893,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1333749142}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney15
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24516,9 +24516,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1354526710}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney23
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25675,9 +25675,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1444181970}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney20
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27800,9 +27800,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1516508264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney2
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29448,9 +29448,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1599608783}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney19
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31892,9 +31892,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1707821635}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney8
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37615,9 +37615,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2071737168}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney17
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38972,9 +38972,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2131455143}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Barney18
-  m_TagString: Untagged
+  m_TagString: EvilCharacter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
