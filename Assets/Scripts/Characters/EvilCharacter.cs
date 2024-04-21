@@ -3,7 +3,7 @@ using UnityEditor;
 
 public class EvilCharacter : MonoBehaviour
 {
-    public float movementSpeed = 2f;
+    public float movementSpeed = 20f;
     public float attackRange = 5f;
     public float attackDamage = 10f;
 
@@ -54,7 +54,7 @@ public class EvilCharacter : MonoBehaviour
             {
                 // Attack the player
                 Debug.Log(attackRange + "direction:" + direction.magnitude);
-                rb.velocity = direction.normalized * movementSpeed;
+                rb.velocity = direction.normalized * movementSpeed * 80;
 
             }
             else
