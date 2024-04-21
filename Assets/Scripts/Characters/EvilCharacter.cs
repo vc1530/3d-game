@@ -16,7 +16,14 @@ public class EvilCharacter : MonoBehaviour
     public GameObject goodCharacter; 
     public Transform goodCharacterTransform;
 
-    public LayerMask groundLayer;
+    public AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("EvilCharacter").GetComponent<AudioManager>();
+        
+    }
+
 
     void Start()
     {

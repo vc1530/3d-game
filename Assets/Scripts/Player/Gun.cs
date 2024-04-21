@@ -74,15 +74,15 @@ public class Gun : MonoBehaviour
     public LayerMask evilLayerMask;
     // Reference to the bullet prefab
     public GameObject bulletPrefab;
+    public float bulletSpeed = 10;
+    
+    public AudioManager audioManager;
 
-    // Reference to the bullet spawn point
-    public Transform bulletSpawnPoint;
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
-    // Shooting cooldown time (in seconds)
-    public float shootingCooldown = 0.2f;
-    private float shootingCooldownTimer = 0f;
-
-    public float bulletSpeed = 20f; 
 
     void Update()
     {
@@ -102,8 +102,15 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
-        // Check if the bullet prefab and spawn point are assigned
-        if (bulletPrefab != null && bulletSpawnPoint != null)
+        print("shoot");
+        audioManager.PlaySFX(audioManager.fart);
+        RaycastHit hit;
+        Ray ray = new Ray(bulletSpawnPoint.position, bulletSpawnPoint.forward);
+
+        
+        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+        Rigidbody bulletRigidbody = bullet.GetComponent<Rigidbody>();
+        if (bulletRigidbody != null)
         {
             // Create a bullet instance at the bullet spawn point's position and rotation
             GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
