@@ -13218,7 +13218,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 2132377435}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 0}
 --- !u!1 &468061853
 GameObject:
@@ -19662,7 +19662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &584839498
 Transform:
   m_ObjectHideFlags: 0
@@ -20034,7 +20034,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &618288472
 Transform:
   m_ObjectHideFlags: 0
@@ -23837,7 +23837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1061337384
 Transform:
   m_ObjectHideFlags: 0
@@ -24329,7 +24329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1109789201
 Transform:
   m_ObjectHideFlags: 0
@@ -29338,7 +29338,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1333796834
 Transform:
   m_ObjectHideFlags: 0
@@ -33320,7 +33320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1613398990
 Transform:
   m_ObjectHideFlags: 0
@@ -34389,7 +34389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1707913227
 Transform:
   m_ObjectHideFlags: 0
@@ -36061,7 +36061,7 @@ PrefabInstance:
     - target: {fileID: -8959730529140144117, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
       propertyPath: m_TagString
-      value: EvilCharacter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: -7763210699704580601, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
@@ -36071,7 +36071,7 @@ PrefabInstance:
     - target: {fileID: -7763210699704580601, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
       propertyPath: m_TagString
-      value: EvilCharacter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: -3027562612150429113, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
@@ -36081,7 +36081,7 @@ PrefabInstance:
     - target: {fileID: -3027562612150429113, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
       propertyPath: m_TagString
-      value: EvilCharacter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: -1954503215382472082, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
@@ -36091,7 +36091,7 @@ PrefabInstance:
     - target: {fileID: -1954503215382472082, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
       propertyPath: m_TagString
-      value: EvilCharacter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 211280466716591218, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
@@ -36181,7 +36181,7 @@ PrefabInstance:
     - target: {fileID: 3820446175673251670, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
       propertyPath: m_TagString
-      value: EvilCharacter
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8097924127028248736, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
@@ -36191,7 +36191,7 @@ PrefabInstance:
     - target: {fileID: 8097924127028248736, guid: 6d03e3f962f43a54594caed359ce5e40,
         type: 3}
       propertyPath: m_TagString
-      value: EvilCharacter
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37399,8 +37399,8 @@ MonoBehaviour:
   attackRange: 5
   attackDamage: 10
   isGood: 0
-  goodCharacter: {fileID: 0}
-  goodCharacterTransform: {fileID: 0}
+  goodCharacter: {fileID: 241546475}
+  goodCharacterTransform: {fileID: 241546477}
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -38128,7 +38128,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 1901743973}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 0}
 --- !u!1001 &1951574943
 PrefabInstance:
@@ -38574,7 +38574,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
-      insertIndex: -1
+      insertIndex: 9
       addedObject: {fileID: 316824547}
   m_SourcePrefab: {fileID: 100100000, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
 --- !u!1001 &1971449318

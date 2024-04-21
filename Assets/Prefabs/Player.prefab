@@ -46,14 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a43a1bbc15754da1b29cd1cd2a40d85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilLayerMask:
-    serializedVersion: 2
-    m_Bits: 8
-  goodColor: {r: 0, g: 1, b: 0, a: 1}
-  bulletSpawnPoint: {fileID: 7976514409230037534}
   bulletPrefab: {fileID: 452479749998551533, guid: 0b326ee1574d4544c9fb69649a89db2e,
     type: 3}
+  bulletSpawnPoint: {fileID: 7976514409230037534}
   bulletSpeed: 15
+  shootingCooldown: 0.2
   audioManager: {fileID: 0}
 --- !u!1 &3294750608324276297
 GameObject:
@@ -240,6 +237,7 @@ GameObject:
   - component: {fileID: 8494840861630964497}
   - component: {fileID: 9163878521654557321}
   - component: {fileID: 8710130991532693979}
+  - component: {fileID: 222543222697603006}
   - component: {fileID: 850179853229279376}
   - component: {fileID: 1062735443992755148}
   m_Layer: 0
@@ -436,6 +434,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &222543222697603006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578276658901303269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723686fcbe272e14ea44ae9487176569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _charInTotal: 0
+  SceneChangeWaitTime: 2
+  nextSceneName: v2_LivingRoom
 --- !u!114 &850179853229279376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,14 +475,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a43a1bbc15754da1b29cd1cd2a40d85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilLayerMask:
-    serializedVersion: 2
-    m_Bits: 8
-  goodColor: {r: 0, g: 1, b: 0, a: 1}
-  bulletSpawnPoint: {fileID: 7976514409230037534}
   bulletPrefab: {fileID: 452479749998551533, guid: 0b326ee1574d4544c9fb69649a89db2e,
     type: 3}
+  bulletSpawnPoint: {fileID: 7976514409230037534}
   bulletSpeed: 15
+  shootingCooldown: 0.2
   audioManager: {fileID: 0}
 --- !u!1001 &2307487655778320473
 PrefabInstance:

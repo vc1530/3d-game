@@ -78,6 +78,7 @@ public class EvilCharacter : MonoBehaviour
         print("goodifying"); 
         isGood = true;
 
+        PlayerMotor.goodCharCounter++;
         gameObject.SetActive(false); 
         goodCharacterTransform.position = transform.position; 
         goodCharacter.SetActive(true); 

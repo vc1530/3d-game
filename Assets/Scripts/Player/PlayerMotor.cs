@@ -12,7 +12,9 @@ public class PlayerMotor : MonoBehaviour
     public GameObject TV; 
     public float speed = 5f; 
     public float gravity = -9.8f; 
-    public float jumpHeight = 3f; 
+    public float jumpHeight = 3f;
+
+    public static int goodCharCounter = 0;
     // Start is called before the first frame update
     void Start()
     {

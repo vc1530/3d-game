@@ -1479,6 +1479,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cc90876a24c95974baf293258366d22d, type: 2}
+    - target: {fileID: 222543222697603006, guid: 93bed56ee7cca48af84a2872184feab2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2089085060585378131, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: xSensitivity

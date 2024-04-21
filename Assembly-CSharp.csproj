@@ -51,6 +51,7 @@
     <Compile Include="Assets\3D Models\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\TableFlip\TableFlipL.cs" />
     <Compile Include="Assets\Scripts\Player\Gun.cs" />
     <Compile Include="Assets\3D Models\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scenes\SceneController.cs" />
     <Compile Include="Assets\3D Models\Sketchfab For Unity\Scripts\SketchfabApi.cs" />
     <Compile Include="Assets\3D Models\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Z Axis -1\Drawer_Pull_Zopp.cs" />
     <Compile Include="Assets\3D Models\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Windows\opencloseWindow1.cs" />
