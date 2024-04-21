@@ -23,8 +23,15 @@ public class ManageScene : MonoBehaviour
         print("Button working");
     }
 
+    public void DoExitGame()
+    {
+        Application.Quit();
+        //Debug.Log("Quit Game");
+    }
+
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        Debug.Log("Loaded Scene: " + sceneName);
     }
 }
