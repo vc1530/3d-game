@@ -15,7 +15,7 @@ C:/Users/Vivi/Documents/GitHub/3d-game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54483
+58457
 Successfully changed project path to: C:/Users/Vivi/Documents/GitHub/3d-game
 C:/Users/Vivi/Documents/GitHub/3d-game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Vivi/Documents/GitHub/3d-game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20684] Host "[IP] 10.209.91.246 [Port] 0 [Flags] 2 [Guid] 2967893218 [EditorId] 2967893218 [Version] 1048832 [Id] WindowsEditor(7,VITOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28424] Host "[IP] 10.209.91.246 [Port] 0 [Flags] 2 [Guid] 967774567 [EditorId] 967774567 [Version] 1048832 [Id] WindowsEditor(7,VITOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20684] Host "[IP] 10.209.91.246 [Port] 0 [Flags] 2 [Guid] 2967893218 [EditorId] 2967893218 [Version] 1048832 [Id] WindowsEditor(7,VITOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28424] Host "[IP] 10.209.91.246 [Port] 0 [Flags] 2 [Guid] 967774567 [EditorId] 967774567 [Version] 1048832 [Id] WindowsEditor(7,VITOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 97.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005812 seconds.
-- Loaded All Assemblies, in  0.429 seconds
+Registered in 0.006518 seconds.
+- Loaded All Assemblies, in  0.437 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.243 seconds
-Domain Reload Profiling: 672ms
-	BeginReloadAssembly (124ms)
+Domain Reload Profiling: 681ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (221ms)
-		LoadAssemblies (123ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (158ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (218ms)
-				TypeCache.ScanAssembly (204ms)
+		AnalyzeDomain (172ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (151ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (245ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (244ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (194ms)
+		SetupLoadedEditorAssemblies (193ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 672ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.720 seconds
-Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -129,47 +129,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.579 seconds
-Domain Reload Profiling: 3298ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.642 seconds
+Domain Reload Profiling: 1373ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (2497ms)
-		LoadAssemblies (2359ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (374ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (207ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (125ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (580ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (643ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (448ms)
+		SetupLoadedEditorAssemblies (499ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (315ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5983 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (419.0 KB). Loaded Objects now: 6446.
-Memory consumption went from 272.6 MB to 272.2 MB.
-Total: 4.590400 ms (FindLiveObjects: 0.488700 ms CreateObjectMapping: 0.417500 ms MarkObjects: 3.396700 ms  DeleteObjects: 0.286400 ms)
+Unloading 6030 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (409.5 KB). Loaded Objects now: 6497.
+Memory consumption went from 277.5 MB to 277.1 MB.
+Total: 4.855300 ms (FindLiveObjects: 0.607300 ms CreateObjectMapping: 0.289500 ms MarkObjects: 3.672400 ms  DeleteObjects: 0.284600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,17 +187,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 87492.404069 seconds.
+  Time since last request: 99396.891983 seconds.
   path: Assets/Scenes/StartScreen.unity
   artifactKey: Guid(b00bb0e28a17dd04f97d1d707f3820b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/StartScreen.unity using Guid(b00bb0e28a17dd04f97d1d707f3820b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297808ca707a48a8ff3313d09f9c50da') in 0.001829 seconds
+Start importing Assets/Scenes/StartScreen.unity using Guid(b00bb0e28a17dd04f97d1d707f3820b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a02526f654a700a981a04c3862c84b') in 0.001582 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.519 seconds
-Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.416 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -207,1100 +207,46 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.720 seconds
-Domain Reload Profiling: 2237ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  1.053 seconds
+Domain Reload Profiling: 1467ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
+		CreateAndSetChildDomain (41ms)
 	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (300ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (234ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (1721ms)
+	FinalizeReload (1054ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (414ms)
+		SetupLoadedEditorAssemblies (485ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (286ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 4.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5798 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (375.4 KB). Loaded Objects now: 6450.
-Memory consumption went from 239.3 MB to 238.9 MB.
-Total: 3.534700 ms (FindLiveObjects: 0.418300 ms CreateObjectMapping: 0.199200 ms MarkObjects: 2.696600 ms  DeleteObjects: 0.219500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 199.606295 seconds.
-  path: Assets/barney_tex_base_color.jpg
-  artifactKey: Guid(f8a7814eedf1e7747841bf9a3758ad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/barney_tex_base_color.jpg using Guid(f8a7814eedf1e7747841bf9a3758ad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4d2419f25bf15a190b8268ec83741d') in 0.063788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/sinister_barney.blend
-  artifactKey: Guid(942620790ce10b045a04a0627e75e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sinister_barney.blend using Guid(942620790ce10b045a04a0627e75e710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2daa2621e22f43cf679cf63fd9629f') in 0.346376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 2026.036088 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_001_delay-0.03s.gif
-  artifactKey: Guid(51b5de0e031d6d442972efc6b0bf3d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_001_delay-0.03s.gif using Guid(51b5de0e031d6d442972efc6b0bf3d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c2cad6fc21d26e05f6548612dbfef0') in 0.016066 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_027_delay-0.03s.gif
-  artifactKey: Guid(6680318dad66e4b49a5a304a83602a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_027_delay-0.03s.gif using Guid(6680318dad66e4b49a5a304a83602a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c491b889ab91c7fec1c0a7b97d463fd') in 0.013464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_010_delay-0.07s.gif
-  artifactKey: Guid(1bd0c394e18adc845908fb4b8b43c1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_010_delay-0.07s.gif using Guid(1bd0c394e18adc845908fb4b8b43c1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52449fc9f464ec31b113c2091f69b0dc') in 0.014455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_012_delay-0.03s.gif
-  artifactKey: Guid(5fb66012e546a7b4c9c7837c6cc761f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_012_delay-0.03s.gif using Guid(5fb66012e546a7b4c9c7837c6cc761f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546d0ac751aa0607d6b1e091f0a0af10') in 0.014722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_020_delay-0.07s.gif
-  artifactKey: Guid(6b8274ee419579b458d2a8804a58d580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_020_delay-0.07s.gif using Guid(6b8274ee419579b458d2a8804a58d580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1a7d39dda7d0fa2ea963db115552d0') in 0.014563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_025_delay-0.07s.gif
-  artifactKey: Guid(24e2927888754904a86aee4705906518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_025_delay-0.07s.gif using Guid(24e2927888754904a86aee4705906518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba7945790f2706b38a8a206c8aac999') in 0.014812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_005_delay-0.07s.gif
-  artifactKey: Guid(c5d9724325ef8d349b66fabbe73267af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_005_delay-0.07s.gif using Guid(c5d9724325ef8d349b66fabbe73267af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003d011747506a3458c37babbc5fc046') in 0.014223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_026_delay-0.03s.gif
-  artifactKey: Guid(8cb5f4925d9ba7544b726255865518b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_026_delay-0.03s.gif using Guid(8cb5f4925d9ba7544b726255865518b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cd22444669335e7e998a9cddccb377') in 0.014832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_008_delay-0.04s.gif
-  artifactKey: Guid(c71d538a12f49a44a84b1979ab62dbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_008_delay-0.04s.gif using Guid(c71d538a12f49a44a84b1979ab62dbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966a028417367d9059a7f91238f5e539') in 0.014827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_028_delay-0.04s.gif
-  artifactKey: Guid(5dac0f72633fb0a4aa9a421981353bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_028_delay-0.04s.gif using Guid(5dac0f72633fb0a4aa9a421981353bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f880c551fe892f404f235d21cf3a95e') in 0.014019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_003_delay-0.04s.gif
-  artifactKey: Guid(ba08bab604d7fd346b23046247f242ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_003_delay-0.04s.gif using Guid(ba08bab604d7fd346b23046247f242ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0483df1cb1a4345625648f558fb4d3b4') in 0.014547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_009_delay-0.03s.gif
-  artifactKey: Guid(318af6471a83b6b4fa8e82f2df03847b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_009_delay-0.03s.gif using Guid(318af6471a83b6b4fa8e82f2df03847b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27428e12db9e77f5e9298c74c0617ad3') in 0.015284 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_004_delay-0.03s.gif
-  artifactKey: Guid(a9efea1ab5449ed43a3ea3f0237d8d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_004_delay-0.03s.gif using Guid(a9efea1ab5449ed43a3ea3f0237d8d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e1c9a6a431463b124e1488521975fc') in 0.015194 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_006_delay-0.03s.gif
-  artifactKey: Guid(3afc7cc4b29add941a58f3c0a40eb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_006_delay-0.03s.gif using Guid(3afc7cc4b29add941a58f3c0a40eb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467abd8b6bf25921449b0848ff2b1ac6') in 0.014755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_032_delay-0.03s.gif
-  artifactKey: Guid(f755bcd54db861a45be18fd01eeff7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_032_delay-0.03s.gif using Guid(f755bcd54db861a45be18fd01eeff7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd489fd9aee4cc664094ab8c3bb601e3d') in 0.014712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_019_delay-0.03s.gif
-  artifactKey: Guid(7becf88510634414092209744ad33e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_019_delay-0.03s.gif using Guid(7becf88510634414092209744ad33e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769ba09e3dbda07e2d3833a8e935b886') in 0.013971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_031_delay-0.03s.gif
-  artifactKey: Guid(0e9c56d5294ef1a40a6c442523538997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_031_delay-0.03s.gif using Guid(0e9c56d5294ef1a40a6c442523538997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62419df8cf595a86d798206f7743a69b') in 0.014320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.747872 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_035_delay-0.07s.gif
-  artifactKey: Guid(3777f317143627c4195fd3dd83cf0631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_035_delay-0.07s.gif using Guid(3777f317143627c4195fd3dd83cf0631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa5551c83f9e79ae37ddc0a085371d9') in 0.013221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_048_delay-0.04s.gif
-  artifactKey: Guid(5312991fcd2de0d4ab76149a9670bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_048_delay-0.04s.gif using Guid(5312991fcd2de0d4ab76149a9670bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1ab867946deff3d6001357e189087d') in 0.014015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_045_delay-0.07s.gif
-  artifactKey: Guid(cb05a45f81c8ca343a3fa198e1ffb4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_045_delay-0.07s.gif using Guid(cb05a45f81c8ca343a3fa198e1ffb4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bc44e320e91bb9265b65f832ee5414') in 0.014378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_037_delay-0.03s.gif
-  artifactKey: Guid(aa724f81a1ea85840b363edc7caf099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_037_delay-0.03s.gif using Guid(aa724f81a1ea85840b363edc7caf099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6214f9434bffa008238de4e4ad416f6') in 0.014352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_041_delay-0.03s.gif
-  artifactKey: Guid(f9e8c314063caf74c9771ab4f6bb552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_041_delay-0.03s.gif using Guid(f9e8c314063caf74c9771ab4f6bb552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1e0c81160c4eccaa5fb36ef487d96e') in 0.015236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_074_delay-0.03s.gif
-  artifactKey: Guid(43d797e95740ca54e82aa93275e388ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_074_delay-0.03s.gif using Guid(43d797e95740ca54e82aa93275e388ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e979dd378eb5a78188a470d62f5b3bce') in 0.013718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_073_delay-0.04s.gif
-  artifactKey: Guid(24b9eea9e8e6f7b479cca648bd97dc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_073_delay-0.04s.gif using Guid(24b9eea9e8e6f7b479cca648bd97dc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e69f7dcf905420fc7e178286ad95fc') in 0.014062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_078_delay-0.04s.gif
-  artifactKey: Guid(eae23bf1263fec74baf0b1609f8b5fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_078_delay-0.04s.gif using Guid(eae23bf1263fec74baf0b1609f8b5fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140213bde9da1293bffeec198b319383') in 0.014991 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_079_delay-0.03s.gif
-  artifactKey: Guid(e1b893b3ee464d04182e6c7abc4bd15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_079_delay-0.03s.gif using Guid(e1b893b3ee464d04182e6c7abc4bd15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c661512a6a1f01b595d074a937320ea9') in 0.014291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_095_delay-0.07s.gif
-  artifactKey: Guid(8bf8fb5d71a8b6f4b800bb237dd1f92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_095_delay-0.07s.gif using Guid(8bf8fb5d71a8b6f4b800bb237dd1f92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72fdbe623c76496bc6d7bca96dcab84') in 0.014197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_061_delay-0.03s.gif
-  artifactKey: Guid(58ca247d69582e5479608f8bcaf352ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_061_delay-0.03s.gif using Guid(58ca247d69582e5479608f8bcaf352ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98dd7f6f437afadc9c9eff77096af2c3') in 0.015164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_042_delay-0.03s.gif
-  artifactKey: Guid(1828d68e7ecd92a42ba333fc4e3264c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_042_delay-0.03s.gif using Guid(1828d68e7ecd92a42ba333fc4e3264c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c02c2a411ea04aa2a08c68d26fca8b') in 0.014065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_053_delay-0.04s.gif
-  artifactKey: Guid(d4fe44e16ddaca94a8f8a165f7a7de4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_053_delay-0.04s.gif using Guid(d4fe44e16ddaca94a8f8a165f7a7de4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11283bd1da660013a45f019e6bf095f5') in 0.014755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_067_delay-0.03s.gif
-  artifactKey: Guid(5b8b15f1ad64f2640a265f57908c80ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_067_delay-0.03s.gif using Guid(5b8b15f1ad64f2640a265f57908c80ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a6f09332803dab83baa1f5476cc134') in 0.014614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_038_delay-0.04s.gif
-  artifactKey: Guid(fcb1355bb2256b64dbef3fae66cd926e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_038_delay-0.04s.gif using Guid(fcb1355bb2256b64dbef3fae66cd926e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687a23b53f4512df7254f71731339030') in 0.014265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_094_delay-0.03s.gif
-  artifactKey: Guid(0b0ba674ebc767c409cae546f069556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_094_delay-0.03s.gif using Guid(0b0ba674ebc767c409cae546f069556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aadafabd3a5194013a08af50e2adb11') in 0.015173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_070_delay-0.07s.gif
-  artifactKey: Guid(a2146bc37534978408d3abb44c85589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_070_delay-0.07s.gif using Guid(a2146bc37534978408d3abb44c85589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3299dc40083ff5e39b4ef70939256e7') in 0.013997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_071_delay-0.03s.gif
-  artifactKey: Guid(abf1ee779bccab1419d145ed4c575407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_071_delay-0.03s.gif using Guid(abf1ee779bccab1419d145ed4c575407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db40a5108316ecee65523ba69493c81') in 0.014573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_049_delay-0.03s.gif
-  artifactKey: Guid(f424aa97696dd834385fb93bb62060b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_049_delay-0.03s.gif using Guid(f424aa97696dd834385fb93bb62060b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c899c8d3b4f29ab5ce68dcbe2160fd8') in 0.014099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_102_delay-0.03s.gif
-  artifactKey: Guid(84ff523104a8d5749b46d576aa239ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_102_delay-0.03s.gif using Guid(84ff523104a8d5749b46d576aa239ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902ac506482ef294d788e5945f02f31f') in 0.014095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_118_delay-0.04s.gif
-  artifactKey: Guid(594f0e3d4cd14c84b92b8ce69353391a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_118_delay-0.04s.gif using Guid(594f0e3d4cd14c84b92b8ce69353391a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fe5dedb11b1d73411a7c040f0e60ef') in 0.035360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_116_delay-0.03s.gif
-  artifactKey: Guid(b2b817e2f6774ca42ba1681d15ac5b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_116_delay-0.03s.gif using Guid(b2b817e2f6774ca42ba1681d15ac5b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46946cfe6dee4c6b0369d4f2be8e9e2f') in 0.014405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_103_delay-0.04s.gif
-  artifactKey: Guid(891d715849b21f8439c1f531ae4f717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_103_delay-0.04s.gif using Guid(891d715849b21f8439c1f531ae4f717c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51148b018910b9f33bebb6340440329a') in 0.015170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_121_delay-0.13s.gif
-  artifactKey: Guid(df7eb85d8a763fd42b53ea5aa71e471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_121_delay-0.13s.gif using Guid(df7eb85d8a763fd42b53ea5aa71e471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd904e415e91dacd788a054ad83cf6f3') in 0.014291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_104_delay-0.03s.gif
-  artifactKey: Guid(d95eb9e29b1297e4e9af26a65e85f010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_104_delay-0.03s.gif using Guid(d95eb9e29b1297e4e9af26a65e85f010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2e16af309465a62eba090ecea2c70a') in 0.014438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_064_delay-0.03s.gif
-  artifactKey: Guid(2718e6c3752ee6842b4c17b9aeaf2e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_064_delay-0.03s.gif using Guid(2718e6c3752ee6842b4c17b9aeaf2e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd79c8ac5e95a07076aeae27e2e179b') in 0.014414 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_075_delay-0.07s.gif
-  artifactKey: Guid(3390f34968d264a4c8ca55682c99dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_075_delay-0.07s.gif using Guid(3390f34968d264a4c8ca55682c99dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5078a6d450e2eda3b5c036b05e9cdcb2') in 0.014845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_113_delay-0.04s.gif
-  artifactKey: Guid(c9cad95fe78478441a7187750afd796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_113_delay-0.04s.gif using Guid(c9cad95fe78478441a7187750afd796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0317188eedeab0e896290254921cfb87') in 0.014250 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_090_delay-0.07s.gif
-  artifactKey: Guid(6093b3b278dd1c942b02ae5e76f9a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_090_delay-0.07s.gif using Guid(6093b3b278dd1c942b02ae5e76f9a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1bedbbf4dc656af3c9f5c6f8ea7b15') in 0.015261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_100_delay-0.07s.gif
-  artifactKey: Guid(b519fcf6aab490040b13001f97f3cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_100_delay-0.07s.gif using Guid(b519fcf6aab490040b13001f97f3cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bae274a9d995988e60597e9caa3996') in 0.014762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_092_delay-0.03s.gif
-  artifactKey: Guid(1b40e400e2331b24995220fb3355f768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_092_delay-0.03s.gif using Guid(1b40e400e2331b24995220fb3355f768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28c02ba19f72b4ea1891079cf975b8e') in 0.014490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_093_delay-0.04s.gif
-  artifactKey: Guid(dc23b1835e9bf6648889f29d89ea60d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_093_delay-0.04s.gif using Guid(dc23b1835e9bf6648889f29d89ea60d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b590466f87919b4b9c4501a5fc1d38b4') in 0.015564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_089_delay-0.03s.gif
-  artifactKey: Guid(39321acbb878e9d499b6b48b5675ea6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_089_delay-0.03s.gif using Guid(39321acbb878e9d499b6b48b5675ea6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3cc805140594274e0e7a8d31a3dfc2') in 0.014944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_101_delay-0.03s.gif
-  artifactKey: Guid(6f368cc0ecbeacd498b8e9a70add7db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_101_delay-0.03s.gif using Guid(6f368cc0ecbeacd498b8e9a70add7db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2313a9fa6ad277883ec03fa04af8fd46') in 0.014856 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_117_delay-0.03s.gif
-  artifactKey: Guid(d63a89eaeb866c94c87d0e7c04496cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_117_delay-0.03s.gif using Guid(d63a89eaeb866c94c87d0e7c04496cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5def3138b42715b7822143f389a72f0f') in 0.014889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_068_delay-0.04s.gif
-  artifactKey: Guid(40f47abceb2a26840b15d6ba30d34ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_068_delay-0.04s.gif using Guid(40f47abceb2a26840b15d6ba30d34ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762764defce93edc7547d76cba7337f9') in 0.015930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_060_delay-0.07s.gif
-  artifactKey: Guid(30a7723d446840b4e820bb8994dee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_060_delay-0.07s.gif using Guid(30a7723d446840b4e820bb8994dee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150080aa9256321b83d4c47bcec2ca61') in 0.015149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_056_delay-0.03s.gif
-  artifactKey: Guid(362baefbe37998047bf95178e5107e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_056_delay-0.03s.gif using Guid(362baefbe37998047bf95178e5107e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89720cb0a40fba7391daa486ef9d028') in 0.015341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_057_delay-0.03s.gif
-  artifactKey: Guid(e2e42340b01108046b1dac4e171a303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_057_delay-0.03s.gif using Guid(e2e42340b01108046b1dac4e171a303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad64b67cfb771e3377d997f8114b5f16') in 0.015474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_065_delay-0.07s.gif
-  artifactKey: Guid(2dd8ab6e8f0463e42b59e1ea80b1f2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_065_delay-0.07s.gif using Guid(2dd8ab6e8f0463e42b59e1ea80b1f2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd161130a19ff86e600be19ea382ebb99') in 0.014868 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_046_delay-0.03s.gif
-  artifactKey: Guid(14342975d9b40af468cab4ab8fb3862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_046_delay-0.03s.gif using Guid(14342975d9b40af468cab4ab8fb3862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e729549587da24688da05d9e8ff45d6b') in 0.016076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_054_delay-0.03s.gif
-  artifactKey: Guid(e9d02969e4de15d45896722abf894533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_054_delay-0.03s.gif using Guid(e9d02969e4de15d45896722abf894533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f014699e061b0078710db0322ff447') in 0.014760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_062_delay-0.03s.gif
-  artifactKey: Guid(47fe39d23bbc131448350c13bc40043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_062_delay-0.03s.gif using Guid(47fe39d23bbc131448350c13bc40043c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57137b45d40d8eb54416fde61a034cda') in 0.014357 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_055_delay-0.07s.gif
-  artifactKey: Guid(4af32b50fce7a90449575b41e5414eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_055_delay-0.07s.gif using Guid(4af32b50fce7a90449575b41e5414eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e5dd9c784ef31f6a6aaa7c30676023') in 0.014574 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 41.917887 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_111_delay-0.03s.gif
-  artifactKey: Guid(691fdd4f18df21f4d996d9218456d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_111_delay-0.03s.gif using Guid(691fdd4f18df21f4d996d9218456d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0845dded77bda7d204beae59c26d1a') in 0.014378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_120_delay-0.03s.gif
-  artifactKey: Guid(6cf435de404e47c45b660795f251a7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_120_delay-0.03s.gif using Guid(6cf435de404e47c45b660795f251a7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6064c8b1fda285eba3896c7a242d326d') in 0.014085 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_116_delay-0.03s.gif
-  artifactKey: Guid(b2b817e2f6774ca42ba1681d15ac5b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_116_delay-0.03s.gif using Guid(b2b817e2f6774ca42ba1681d15ac5b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0719b9e7c7469451537eb41b34bc5e') in 0.014035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_121_delay-0.13s.gif
-  artifactKey: Guid(df7eb85d8a763fd42b53ea5aa71e471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_121_delay-0.13s.gif using Guid(df7eb85d8a763fd42b53ea5aa71e471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24453a2f1c31561e83d994af2739a2e6') in 0.013705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_113_delay-0.04s.gif
-  artifactKey: Guid(c9cad95fe78478441a7187750afd796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_113_delay-0.04s.gif using Guid(c9cad95fe78478441a7187750afd796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3aa676a4c72191d3aebc44d6cc2286') in 0.014410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_119_delay-0.1s.gif
-  artifactKey: Guid(d41f2bba120e41f41b7eb7344e0e62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_119_delay-0.1s.gif using Guid(d41f2bba120e41f41b7eb7344e0e62a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36547f8e5961507593a4f34dd59abba0') in 0.014738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.739651 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_100_delay-0.07s.gif
-  artifactKey: Guid(b519fcf6aab490040b13001f97f3cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_100_delay-0.07s.gif using Guid(b519fcf6aab490040b13001f97f3cf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97d61b3324ea84a757889f902f7e2c5') in 0.014612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_107_delay-0.03s.gif
-  artifactKey: Guid(4e6d6773265c7014288615fec8e05891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_107_delay-0.03s.gif using Guid(4e6d6773265c7014288615fec8e05891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341f31d9a27e0a96ddfe5a9e0fe8c22a') in 0.013628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_105_delay-0.07s.gif
-  artifactKey: Guid(816093eb51d97d84e94d04153d39d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_105_delay-0.07s.gif using Guid(816093eb51d97d84e94d04153d39d399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a862a5028ef062941658537dba510f') in 0.014328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_108_delay-0.04s.gif
-  artifactKey: Guid(29183ccd8ec7c8d4390b60e672b4666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_108_delay-0.04s.gif using Guid(29183ccd8ec7c8d4390b60e672b4666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6475ab2c4ea5a9586b69507cffce94') in 0.014421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_097_delay-0.03s.gif
-  artifactKey: Guid(c7437e0797743a44287a7551f4b6ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_097_delay-0.03s.gif using Guid(c7437e0797743a44287a7551f4b6ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271a7990f9a82191d3310f01c599c1f6') in 0.014341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_078_delay-0.04s.gif
-  artifactKey: Guid(eae23bf1263fec74baf0b1609f8b5fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_078_delay-0.04s.gif using Guid(eae23bf1263fec74baf0b1609f8b5fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f302474ce9fcb471efd504c30dc8f470') in 0.014965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_086_delay-0.03s.gif
-  artifactKey: Guid(54c09ba223d22ef4a9aa0676e6fdf544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_086_delay-0.03s.gif using Guid(54c09ba223d22ef4a9aa0676e6fdf544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a73451692a20a1028e96b186d90193') in 0.014525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_069_delay-0.03s.gif
-  artifactKey: Guid(3958a0fc9e0c8d24ba3f1f67c87ae0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_069_delay-0.03s.gif using Guid(3958a0fc9e0c8d24ba3f1f67c87ae0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d52d8e39839f533e34ea32814760434') in 0.014268 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_091_delay-0.03s.gif
-  artifactKey: Guid(18c75f473ef2979479e53172d9cabafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_091_delay-0.03s.gif using Guid(18c75f473ef2979479e53172d9cabafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd17ae2b5199709ee2d4f19a49587e7') in 0.013181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_094_delay-0.03s.gif
-  artifactKey: Guid(0b0ba674ebc767c409cae546f069556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_094_delay-0.03s.gif using Guid(0b0ba674ebc767c409cae546f069556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be31d5934c5723b122350af2876a67d') in 0.014017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_083_delay-0.04s.gif
-  artifactKey: Guid(6e35f0d2037019d4dbed506204c39818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_083_delay-0.04s.gif using Guid(6e35f0d2037019d4dbed506204c39818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1a09230ce3ae4819df2a470da96f10') in 0.014883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_071_delay-0.03s.gif
-  artifactKey: Guid(abf1ee779bccab1419d145ed4c575407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_071_delay-0.03s.gif using Guid(abf1ee779bccab1419d145ed4c575407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1228418c1e662cf3bd3097e28a367a2') in 0.014247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_082_delay-0.03s.gif
-  artifactKey: Guid(ab7308dc26b309f43bc40f2aa078af24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_082_delay-0.03s.gif using Guid(ab7308dc26b309f43bc40f2aa078af24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4eaba16c24338666973989ec9bb01ab') in 0.014089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_075_delay-0.07s.gif
-  artifactKey: Guid(3390f34968d264a4c8ca55682c99dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_075_delay-0.07s.gif using Guid(3390f34968d264a4c8ca55682c99dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594d62afc5b122667bc31274b0aa5a31') in 0.014546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_072_delay-0.03s.gif
-  artifactKey: Guid(01883f079f0cd9a45bcd81cd45c747b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_072_delay-0.03s.gif using Guid(01883f079f0cd9a45bcd81cd45c747b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7ee70ea251e726e491ae7e7cb332f2') in 0.013879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_098_delay-0.04s.gif
-  artifactKey: Guid(db78d76d50b7726428462a05e6a79460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_098_delay-0.04s.gif using Guid(db78d76d50b7726428462a05e6a79460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a403f44b0842df58e4f539eab9141cb0') in 0.013735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_092_delay-0.03s.gif
-  artifactKey: Guid(1b40e400e2331b24995220fb3355f768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_092_delay-0.03s.gif using Guid(1b40e400e2331b24995220fb3355f768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2ad2fa5058271f5c5b4a19fd093e44') in 0.014118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_101_delay-0.03s.gif
-  artifactKey: Guid(6f368cc0ecbeacd498b8e9a70add7db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_101_delay-0.03s.gif using Guid(6f368cc0ecbeacd498b8e9a70add7db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c0e930e29847905eabd6e84c7a7f72') in 0.014787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_077_delay-0.03s.gif
-  artifactKey: Guid(9ade0c2591ddbc94db35b1f704d3a708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_077_delay-0.03s.gif using Guid(9ade0c2591ddbc94db35b1f704d3a708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586ba2f8b5d89007037de82dc2eb325c') in 0.014902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_087_delay-0.03s.gif
-  artifactKey: Guid(bd8f8daecb1368849bffdb7a33bc5e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_087_delay-0.03s.gif using Guid(bd8f8daecb1368849bffdb7a33bc5e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382e43c51f25aba2faa329b8dc4108ad') in 0.013786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_085_delay-0.07s.gif
-  artifactKey: Guid(32060495d01a3d24696ddc38e68e6f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_085_delay-0.07s.gif using Guid(32060495d01a3d24696ddc38e68e6f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4898183b95ea76b9ca7ae72b39e05ff5') in 0.014203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_045_delay-0.07s.gif
-  artifactKey: Guid(cb05a45f81c8ca343a3fa198e1ffb4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_045_delay-0.07s.gif using Guid(cb05a45f81c8ca343a3fa198e1ffb4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cedc611d68820fb7ea7b832defe1f9e') in 0.013032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_058_delay-0.04s.gif
-  artifactKey: Guid(7cca42ddc71babc40b450239a84a84b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_058_delay-0.04s.gif using Guid(7cca42ddc71babc40b450239a84a84b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47392b753b9d477685b5f396b502ae7') in 0.014439 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_040_delay-0.07s.gif
-  artifactKey: Guid(095a96f1c2cd3544db708107e6550775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_040_delay-0.07s.gif using Guid(095a96f1c2cd3544db708107e6550775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8c586d0bb351ef8bb909f8fb064719') in 0.013171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_041_delay-0.03s.gif
-  artifactKey: Guid(f9e8c314063caf74c9771ab4f6bb552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_041_delay-0.03s.gif using Guid(f9e8c314063caf74c9771ab4f6bb552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6aa3ae5691c4ddfcafc1a995b5af9e') in 0.014174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_063_delay-0.04s.gif
-  artifactKey: Guid(1c4a3035957a9e043ad8ff01af2c3c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_063_delay-0.04s.gif using Guid(1c4a3035957a9e043ad8ff01af2c3c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef23979ce283b9a065629ebdac1ab06') in 0.013535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_059_delay-0.03s.gif
-  artifactKey: Guid(fe9eb2f2413a5b24f9f5bf99b673170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_059_delay-0.03s.gif using Guid(fe9eb2f2413a5b24f9f5bf99b673170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfabcf03b030312a2a9c99fdbb1e4ecb') in 0.014453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_034_delay-0.03s.gif
-  artifactKey: Guid(be5775eaa7cde1142a58819990f8aebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_034_delay-0.03s.gif using Guid(be5775eaa7cde1142a58819990f8aebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cab7c5556044f73444977dcc5721ad') in 0.015005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_043_delay-0.04s.gif
-  artifactKey: Guid(e9cc18fce27d5d44c96c8ad8e02922b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_043_delay-0.04s.gif using Guid(e9cc18fce27d5d44c96c8ad8e02922b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9534ef1b1a8c4bb716fb8bcfb99b72') in 0.014231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_033_delay-0.04s.gif
-  artifactKey: Guid(d2ff07792767fb845aa1a4cea98188bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_033_delay-0.04s.gif using Guid(d2ff07792767fb845aa1a4cea98188bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86fe7ba9f0c0ae0743c154fe0610907') in 0.014345 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_048_delay-0.04s.gif
-  artifactKey: Guid(5312991fcd2de0d4ab76149a9670bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_048_delay-0.04s.gif using Guid(5312991fcd2de0d4ab76149a9670bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db65492c54096468e65c3c12b5077103') in 0.014178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_047_delay-0.03s.gif
-  artifactKey: Guid(c025ee6f739f14944a372c2e0f4f52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_047_delay-0.03s.gif using Guid(c025ee6f739f14944a372c2e0f4f52e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fb891f3c27b312062313430f79c690') in 0.014316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_052_delay-0.03s.gif
-  artifactKey: Guid(138b82ae15fadef4bbe1a21e2e840ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_052_delay-0.03s.gif using Guid(138b82ae15fadef4bbe1a21e2e840ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb2c7f654782df30f1c377609887f82') in 0.015121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_057_delay-0.03s.gif
-  artifactKey: Guid(e2e42340b01108046b1dac4e171a303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_057_delay-0.03s.gif using Guid(e2e42340b01108046b1dac4e171a303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc08173250022821d9c3a819694f6ff9') in 0.014185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_065_delay-0.07s.gif
-  artifactKey: Guid(2dd8ab6e8f0463e42b59e1ea80b1f2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_065_delay-0.07s.gif using Guid(2dd8ab6e8f0463e42b59e1ea80b1f2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e6f6ce1aa8e3d912adadda307695ea') in 0.014665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_029_delay-0.03s.gif
-  artifactKey: Guid(2194ca2384b007a4188a6f8a5dad1a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_029_delay-0.03s.gif using Guid(2194ca2384b007a4188a6f8a5dad1a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df36f61ce07d7c48e31623d14b8b6c8') in 0.014139 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_028_delay-0.04s.gif
-  artifactKey: Guid(5dac0f72633fb0a4aa9a421981353bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_028_delay-0.04s.gif using Guid(5dac0f72633fb0a4aa9a421981353bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0f0c72dd83ebdae88a610b86a9bf48') in 0.014912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_022_delay-0.03s.gif
-  artifactKey: Guid(80791671b78ed4649b61eb19676d9512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_022_delay-0.03s.gif using Guid(80791671b78ed4649b61eb19676d9512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df11396a8bd351b7f23818c689952705') in 0.014225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_030_delay-0.07s.gif
-  artifactKey: Guid(ff3b39aa35919c14db86801222555bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_030_delay-0.07s.gif using Guid(ff3b39aa35919c14db86801222555bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c4c13cb7f3b14c2c9c052e3701c01c') in 0.013589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_014_delay-0.03s.gif
-  artifactKey: Guid(868bb70b38c2d0c4ca7e1077f63b3717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_014_delay-0.03s.gif using Guid(868bb70b38c2d0c4ca7e1077f63b3717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ceb987f8f2689f6771e1894c922e46') in 0.014132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_021_delay-0.03s.gif
-  artifactKey: Guid(4571519cedd2eec4c873f4dca6aadcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_021_delay-0.03s.gif using Guid(4571519cedd2eec4c873f4dca6aadcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce37b87763bf8cbfeadfdbf6fb9df8e') in 0.014111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_013_delay-0.04s.gif
-  artifactKey: Guid(f6bea76156da283408fd548f00608ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_013_delay-0.04s.gif using Guid(f6bea76156da283408fd548f00608ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfeb74f8386aba64174a37c26753be2') in 0.014197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_016_delay-0.03s.gif
-  artifactKey: Guid(1f91364f70d48f24aba5aa803522e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_016_delay-0.03s.gif using Guid(1f91364f70d48f24aba5aa803522e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3fd05717a58065bcf83e9c1fbe204f') in 0.014525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_015_delay-0.07s.gif
-  artifactKey: Guid(614d75337011d7e458ec963559ab66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_015_delay-0.07s.gif using Guid(614d75337011d7e458ec963559ab66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e6d21f27aca960c4c3c1cd778f0ac9') in 0.015264 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_023_delay-0.04s.gif
-  artifactKey: Guid(da94ffaed89419d4d9f7a584a7125869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_023_delay-0.04s.gif using Guid(da94ffaed89419d4d9f7a584a7125869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f70489a322a8af6b6bcecbf3f07a12') in 0.014302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_084_delay-0.03s.gif
-  artifactKey: Guid(ba54e836e2bf24846888fc82c73815e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_084_delay-0.03s.gif using Guid(ba54e836e2bf24846888fc82c73815e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e322d6ce55a749be646f9a3c97c66ec') in 0.014434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_054_delay-0.03s.gif
-  artifactKey: Guid(e9d02969e4de15d45896722abf894533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_054_delay-0.03s.gif using Guid(e9d02969e4de15d45896722abf894533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de3e7fe41fbc3b5a8ec044f29ff3e7f') in 0.014628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_035_delay-0.07s.gif
-  artifactKey: Guid(3777f317143627c4195fd3dd83cf0631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_035_delay-0.07s.gif using Guid(3777f317143627c4195fd3dd83cf0631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc8b26cc479284185b01120df01dbe6') in 0.013655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_074_delay-0.03s.gif
-  artifactKey: Guid(43d797e95740ca54e82aa93275e388ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_074_delay-0.03s.gif using Guid(43d797e95740ca54e82aa93275e388ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef09dae6e93862bc881065043f84acb6') in 0.014536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.070162 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_002_delay-0.03s.gif
-  artifactKey: Guid(18ee67f88e8674c48bd85039fa01babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_002_delay-0.03s.gif using Guid(18ee67f88e8674c48bd85039fa01babd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24d1244191ee790ce2492564e361d4f') in 0.014108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_010_delay-0.07s.gif
-  artifactKey: Guid(1bd0c394e18adc845908fb4b8b43c1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_010_delay-0.07s.gif using Guid(1bd0c394e18adc845908fb4b8b43c1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a4307a56000c071d2e7d4e8252df26') in 0.013572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_005_delay-0.07s.gif
-  artifactKey: Guid(c5d9724325ef8d349b66fabbe73267af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_005_delay-0.07s.gif using Guid(c5d9724325ef8d349b66fabbe73267af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdd869e3671e5cc25016d249df65771') in 0.014156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_003_delay-0.04s.gif
-  artifactKey: Guid(ba08bab604d7fd346b23046247f242ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_003_delay-0.04s.gif using Guid(ba08bab604d7fd346b23046247f242ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a03aec4e8e982016501fcecc32fed1') in 0.013731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Videos/ezgif-5-14778b013b-gif-im/frame_004_delay-0.03s.gif
-  artifactKey: Guid(a9efea1ab5449ed43a3ea3f0237d8d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Videos/ezgif-5-14778b013b-gif-im/frame_004_delay-0.03s.gif using Guid(a9efea1ab5449ed43a3ea3f0237d8d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781d55f0987f5b546e2e25fe890d4109') in 0.015061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.717 seconds
-Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.123 seconds
-Domain Reload Profiling: 2839ms
-	BeginReloadAssembly (200ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (427ms)
-		LoadAssemblies (479ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (2123ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (349ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (326ms)
 			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5798 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (391.5 KB). Loaded Objects now: 6540.
-Memory consumption went from 246.2 MB to 245.8 MB.
-Total: 6.315900 ms (FindLiveObjects: 0.601500 ms CreateObjectMapping: 0.240700 ms MarkObjects: 5.153200 ms  DeleteObjects: 0.319200 ms)
+Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (365.5 KB). Loaded Objects now: 6501.
+Memory consumption went from 241.1 MB to 240.8 MB.
+Total: 4.651400 ms (FindLiveObjects: 0.572100 ms CreateObjectMapping: 0.465100 ms MarkObjects: 3.381800 ms  DeleteObjects: 0.231400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1320,8 +266,8 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.457 seconds
-Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.413 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -1331,186 +277,140 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.056 seconds
-Domain Reload Profiling: 1511ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  1.001 seconds
+Domain Reload Profiling: 1413ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (211ms)
-		LoadAssemblies (269ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (241ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
+		AnalyzeDomain (16ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (1057ms)
+	FinalizeReload (1002ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (499ms)
+		SetupLoadedEditorAssemblies (456ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (337ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5798 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (375.6 KB). Loaded Objects now: 6544.
-Memory consumption went from 248.1 MB to 247.7 MB.
-Total: 5.038700 ms (FindLiveObjects: 0.461100 ms CreateObjectMapping: 0.527800 ms MarkObjects: 3.748600 ms  DeleteObjects: 0.300100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.417 seconds
-Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.087 seconds
-Domain Reload Profiling: 1502ms
-	BeginReloadAssembly (139ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (185ms)
-		LoadAssemblies (235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1087ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (495ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (335ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5798 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (391.2 KB). Loaded Objects now: 6548.
-Memory consumption went from 250.0 MB to 249.6 MB.
-Total: 5.036800 ms (FindLiveObjects: 0.586300 ms CreateObjectMapping: 0.299000 ms MarkObjects: 3.880400 ms  DeleteObjects: 0.269900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.615 seconds
-Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.949 seconds
-Domain Reload Profiling: 2563ms
-	BeginReloadAssembly (179ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (348ms)
-		LoadAssemblies (363ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (58ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (33ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1950ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (425ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (284ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (365.6 KB). Loaded Objects now: 6505.
+Memory consumption went from 243.1 MB to 242.7 MB.
+Total: 4.764600 ms (FindLiveObjects: 0.901700 ms CreateObjectMapping: 0.314600 ms MarkObjects: 3.321500 ms  DeleteObjects: 0.225800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 368.465331 seconds.
+  path: Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Models/Vase.fbx
+  artifactKey: Guid(2b4a2d31e35c5ce4cacda7ea46d6d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Models/Vase.fbx using Guid(2b4a2d31e35c5ce4cacda7ea46d6d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07357ffdd7d3a7e2b4b08f3a5e1735fc') in 0.384397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Vase_Apt_01.mat
+  artifactKey: Guid(7504f6d8f16670241856bdd867609ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Vase_Apt_01.mat using Guid(7504f6d8f16670241856bdd867609ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc058b0362f28072e0297a5376d54418') in 0.636617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3D Models/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/Vase_Apt_03.prefab
+  artifactKey: Guid(7a897a6b060173d41a37261351d86569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/Vase_Apt_03.prefab using Guid(7a897a6b060173d41a37261351d86569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac14eec58cc51fd92ff51a2d7b75678') in 0.015837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.547 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.831 seconds
+Domain Reload Profiling: 2376ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (420ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5845 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.1 MB). Loaded Objects now: 6586.
-Memory consumption went from 256.5 MB to 255.4 MB.
-Total: 5.427100 ms (FindLiveObjects: 0.485400 ms CreateObjectMapping: 0.494000 ms MarkObjects: 3.851200 ms  DeleteObjects: 0.595500 ms)
+Unloading 5833 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (374.6 KB). Loaded Objects now: 6592.
+Memory consumption went from 249.9 MB to 249.6 MB.
+Total: 4.464900 ms (FindLiveObjects: 0.438800 ms CreateObjectMapping: 0.173000 ms MarkObjects: 3.623800 ms  DeleteObjects: 0.228000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
