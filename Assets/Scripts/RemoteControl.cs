@@ -10,6 +10,7 @@ public class RemoteControl : MonoBehaviour
     public VideoClip Minions;
     public VideoClip Teletubbies; 
     public VideoClip Barney; 
+    public VideoClip currentClip; 
 
     private int index; 
     private VideoClip[] shows; 
@@ -18,6 +19,7 @@ public class RemoteControl : MonoBehaviour
     {
         index = 1; 
         vid.clip = Teletubbies; 
+        currentClip = Teletubbies; 
         shows = new VideoClip[] {Minions, Teletubbies, Barney};
     }
 
@@ -29,12 +31,14 @@ public class RemoteControl : MonoBehaviour
             print(index); 
             print (shows[index]); 
             vid.clip = shows[index]; 
+            currentClip = shows[index]; 
         }
         if (Input.GetKeyDown(KeyCode.RightArrow)){ 
             if (index < 2) index++; 
             print(index); 
             print (shows[index]); 
             vid.clip = shows[index]; 
+            currentClip = shows[index]; 
         }
     }
 }
