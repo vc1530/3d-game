@@ -4,11 +4,11 @@ using UnityEditor;
 public class EvilCharacter : MonoBehaviour
 {
     public float movementSpeed = 2f;
-    public float attackRange = 1f;
+    public float attackRange = 5f;
     public float attackDamage = 10f;
 
     private Transform player;
-    private bool isGood = false;
+    public bool isGood = false;
 
     private bool isAttacking = false;
     private Rigidbody rb;
@@ -33,40 +33,32 @@ public class EvilCharacter : MonoBehaviour
 
     void Update()
     {
-        //if (!isGood) // Only move or attack if not "good"
-        //{
-        //    if (Vector3.Distance(transform.position, player.position) > attackRange)
-        //    {
-        //        //transform.LookAt(player);
-        //        //transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
-        //        //transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
-        //    }
-        //    else
-        //    {
-        //        AttackPlayer();
-        //    }
-        //}
+        if (gameObject.name != "GiantOne") { 
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, groundLayer))
+            {
+                // Move the character to the point where the ray hit the ground.
+                transform.position = hit.point;
+            }
+        }
 
         if (!isGood && player != null)
         {
             // Calculate the direction towards the player
             Vector3 direction = player.position - transform.position;
 
-            // Move towards the player
-            rb.velocity = direction.normalized * movementSpeed;
-
-            // Check if the enemy is within attack range
-            if (direction.magnitude <= attackRange && !isAttacking)
+            print("Direction" + direction.magnitude); 
+            if (direction.magnitude <= attackRange)
             {
                 // Attack the player
                 Debug.Log(attackRange + "direction:" + direction.magnitude);
-                movementSpeed = 0;
-                AttackPlayer();
+                rb.velocity = direction.normalized * movementSpeed;
+
             }
             else
             {
-                // Stop attacking
-                isAttacking = false;
+                print("else no movement"); 
+                rb.velocity = Vector3.zero; 
             }
 
             // Rotate the enemy to face the player
@@ -81,13 +73,11 @@ public class EvilCharacter : MonoBehaviour
 
     public void Goodify()
     {
-
         print("goodifying"); 
         isGood = true;
 
         gameObject.SetActive(false); 
         goodCharacterTransform.position = transform.position; 
         goodCharacter.SetActive(true); 
-
     }
 }

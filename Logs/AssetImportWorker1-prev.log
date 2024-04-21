@@ -914,6 +914,22 @@ Start importing Assets/3D Models/Characters/Teletubby/ear.mat using Guid(d0d16cb
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
+Received Import Request.
+  Time since last request: 42.741454 seconds.
+  path: Assets/3D Models/GoodBarney/barney.png
+  artifactKey: Guid(43d9e085682379349a106b0526b687c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/GoodBarney/barney.png using Guid(43d9e085682379349a106b0526b687c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83780bc922fe27dd1e339f99512acf5f') in 0.063009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.138233 seconds.
+  path: Assets/3D Models/GoodBarney/BarneyTwerk.fbx
+  artifactKey: Guid(9ab9866bdbb9b0a48af00a0aa01d236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/GoodBarney/BarneyTwerk.fbx using Guid(9ab9866bdbb9b0a48af00a0aa01d236d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d28fd531fab96a6f9d2518c98253cd') in 0.311652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.467 seconds

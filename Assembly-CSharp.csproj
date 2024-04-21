@@ -95,7 +95,7 @@
     <None Include="Assets\3D Models\JP Environmental Asset Pack\Shaders\DoubleSided.shader" />
     <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Shaders\GLTFPackOccMetalRough.shader" />
     <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Shaders\GLTFBumpToNormal.shader" />
-    <None Include="Assets\3D Models\Characters\teletuffy\license.txt" />
+    <None Include="Assets\3D Models\teletuffy\license.txt" />
     <None Include="Assets\3D Models\Brick Project Studio\Apartment Kit\Scenes\BPS Apartment Kit.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
