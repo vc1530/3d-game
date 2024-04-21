@@ -27,19 +27,22 @@ public class Gun : MonoBehaviour
         RaycastHit hit;
         Ray ray = new Ray(bulletSpawnPoint.position, bulletSpawnPoint.forward);
 
-        if (Physics.Raycast(ray, out hit, Mathf.Infinity, evilLayerMask))
-        {
-            if (hit.collider.CompareTag("EvilCharacter"))
-            {
-                hit.collider.GetComponent<EvilCharacter>().Goodify(goodColor);
-            }
-        }
         
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
         Rigidbody bulletRigidbody = bullet.GetComponent<Rigidbody>();
         if (bulletRigidbody != null)
         {
             bulletRigidbody.velocity = bulletSpawnPoint.forward * bulletSpeed;
+        }
+
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity, evilLayerMask))
+        {
+            if (hit.collider.CompareTag("EvilCharacter"))
+            {
+                print("hit"); 
+                Destroy(bullet, .5f); 
+                hit.collider.GetComponent<EvilCharacter>().Goodify();
+            }
         }
         
         /*Ray ray = playerCamera.ScreenPointToRay(Input.mousePosition);

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEditor;
 
 public class EvilCharacter : MonoBehaviour
 {
@@ -12,10 +13,8 @@ public class EvilCharacter : MonoBehaviour
     private bool isAttacking = false;
     private Rigidbody rb;
 
-
-    /*
-    public Color goodColor = Color.green;
-    */
+    public GameObject goodCharacter; 
+    public Transform goodCharacterTransform;
 
 
     void Start()
@@ -40,7 +39,7 @@ public class EvilCharacter : MonoBehaviour
         //    }
         //}
 
-        if (player != null)
+        if (!isGood && player != null)
         {
             // Calculate the direction towards the player
             Vector3 direction = player.position - transform.position;
@@ -70,15 +69,15 @@ public class EvilCharacter : MonoBehaviour
         player.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
     }
 
-    public void Goodify(Color goodColor)
+    public void Goodify()
     {
-        
-        Debug.Log("Goodify method called");
+
+        print("goodifying"); 
         isGood = true;
-        GetComponent<Renderer>().material.color = goodColor;
-        Debug.Log("Character color changed to " + goodColor);
-        // Stop chasing or attacking the player
-        // Optionally, you could disable the EvilCharacter's movement or attack components here
-        enabled = false;
+
+        gameObject.SetActive(false); 
+        goodCharacterTransform.position = transform.position; 
+        goodCharacter.SetActive(true); 
+
     }
 }
