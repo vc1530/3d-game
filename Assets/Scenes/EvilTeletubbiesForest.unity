@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00001854927, g: 0.00000003453888, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.000018549279, g: 0.00000003453888, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1366,6 +1366,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  audioManager: {fileID: 0}
 --- !u!1 &72139713
 GameObject:
   m_ObjectHideFlags: 0
@@ -9100,9 +9101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0842b65455e1247a085064bd0fe8326d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilCharacter: {fileID: 71522092}
-  groundLayer:
-    m_Bits: 128
 --- !u!54 &240351235
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9317,9 +9315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0842b65455e1247a085064bd0fe8326d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilCharacter: {fileID: 1879396125}
-  groundLayer:
-    m_Bits: 128
 --- !u!1 &248590704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 276c8db66723aed4f8fe7ba0ba9d1722,
@@ -9401,6 +9396,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  audioManager: {fileID: 0}
 --- !u!4 &250707106
 Transform:
   m_ObjectHideFlags: 0
@@ -10634,6 +10630,27 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48877448f3a5a7b42956199437be7a1a, type: 3}
+--- !u!1 &316824535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1967300713}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &316824547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316824535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd2f01e4b8324f5eb17ee8cf25e0f80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 150
+  minYAngle: -80
+  maxYAngle: 80
 --- !u!1 &328934992
 GameObject:
   m_ObjectHideFlags: 0
@@ -11458,9 +11475,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0842b65455e1247a085064bd0fe8326d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilCharacter: {fileID: 1094771103}
-  groundLayer:
-    m_Bits: 128
 --- !u!54 &362470684
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13976,6 +13990,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  audioManager: {fileID: 0}
 --- !u!1 &468061853
 GameObject:
   m_ObjectHideFlags: 0
@@ -20917,12 +20932,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &606794228 stripped
+--- !u!1 &606794228
 GameObject:
-  m_CorrespondingSourceObject: {fileID: -6689036041284674117, guid: c3334116ddb2ec347a30b46566827fd4,
-    type: 3}
-  m_PrefabInstance: {fileID: 234461507}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 606794234}
+  - component: {fileID: 606794233}
+  - component: {fileID: 606794232}
+  - component: {fileID: 606794230}
+  m_Layer: 0
+  m_Name: 
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!114 &606794230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20938,8 +20966,12 @@ MonoBehaviour:
   movementSpeed: 2
   attackRange: 10
   attackDamage: 10
+  isGood: 0
   goodCharacter: {fileID: 0}
   goodCharacterTransform: {fileID: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
   audioManager: {fileID: 0}
 --- !u!136 &606794232
 CapsuleCollider:
@@ -20991,6 +21023,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!4 &606794234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606794228}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &617235465
 GameObject:
   m_ObjectHideFlags: 0
@@ -21600,6 +21647,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  audioManager: {fileID: 0}
 --- !u!4 &657503342
 Transform:
   m_ObjectHideFlags: 0
@@ -26911,6 +26959,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  audioManager: {fileID: 0}
 --- !u!1001 &1096275833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30567,9 +30616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0842b65455e1247a085064bd0fe8326d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilCharacter: {fileID: 248590704}
-  groundLayer:
-    m_Bits: 128
 --- !u!54 &1241486196
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30890,9 +30936,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0842b65455e1247a085064bd0fe8326d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilCharacter: {fileID: 656893293}
-  groundLayer:
-    m_Bits: 128
 --- !u!54 &1263904994
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -37563,6 +37606,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  audioManager: {fileID: 0}
 --- !u!1 &1613398989
 GameObject:
   m_ObjectHideFlags: 0
@@ -42253,9 +42297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0842b65455e1247a085064bd0fe8326d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilCharacter: {fileID: 1611269797}
-  groundLayer:
-    m_Bits: 128
 --- !u!54 &1854795180
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -42529,8 +42570,12 @@ MonoBehaviour:
   movementSpeed: 2
   attackRange: 5
   attackDamage: 10
+  isGood: 0
   goodCharacter: {fileID: 0}
   goodCharacterTransform: {fileID: 0}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
   audioManager: {fileID: 0}
 --- !u!54 &1879396131
 Rigidbody:
@@ -42965,9 +43010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0842b65455e1247a085064bd0fe8326d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilCharacter: {fileID: 1931107969}
-  groundLayer:
-    m_Bits: 128
 --- !u!54 &1901743970
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -43523,6 +43565,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+  audioManager: {fileID: 0}
 --- !u!1001 &1947386773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44120,10 +44163,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -14.562
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1062735443992755148, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
+    - {fileID: 2089085060585378131, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 316824547}
   m_SourcePrefab: {fileID: 100100000, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
 --- !u!1001 &1971449318
 PrefabInstance:
@@ -46651,9 +46700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0842b65455e1247a085064bd0fe8326d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evilCharacter: {fileID: 466529209}
-  groundLayer:
-    m_Bits: 128
 --- !u!54 &2132377432
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -46924,6 +46970,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 606794234}
   - {fileID: 1617354654}
   - {fileID: 431938772}
   - {fileID: 380390090}
@@ -47139,6 +47186,12 @@ SceneRoots:
   - {fileID: 214533351}
   - {fileID: 1643841690}
   - {fileID: 1967300713}
-  - {fileID: 1789422852}
-  - {fileID: 234461507}
   - {fileID: 709826257}
+  - {fileID: 584839498}
+  - {fileID: 618288472}
+  - {fileID: 1061337384}
+  - {fileID: 1109789201}
+  - {fileID: 1333796834}
+  - {fileID: 1536939979}
+  - {fileID: 1613398990}
+  - {fileID: 1707913227}
