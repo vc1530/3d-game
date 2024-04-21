@@ -120,7 +120,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 3
-  goodColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!54 &7987763947233634415
 Rigidbody:
   m_ObjectHideFlags: 0
