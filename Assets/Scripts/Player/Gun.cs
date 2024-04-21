@@ -67,22 +67,118 @@
 //     }
 // }
 
+// using UnityEngine;
+
+// public class Gun : MonoBehaviour
+// {
+//     public LayerMask evilLayerMask;
+//     // Reference to the bullet prefab
+//     public GameObject bulletPrefab;
+//     public float bulletSpeed = 10;
+//     public Transform bulletSpawnPoint;
+    
+//     public AudioManager audioManager;
+
+//     public float shootingCooldown = 0.2f;
+//     private float shootingCooldownTimer = 0f;
+
+//     private void Awake()
+//     {
+//         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+//     }
+
+
+//     void Update()
+//     {
+//         // Decrease the shooting cooldown timer
+//         shootingCooldownTimer -= Time.deltaTime;
+
+//         // Check if the player pressed the fire button (e.g., left mouse button)
+//         if (Input.GetMouseButtonDown(0) && shootingCooldownTimer <= 0f)
+//         {
+//             // Spawn a bullet
+//             Shoot();
+            
+//             // Reset the shooting cooldown timer
+//             shootingCooldownTimer = shootingCooldown;
+//         }
+//     }
+
+//     void Shoot()
+//     {
+//         print("shoot");
+//         audioManager.PlaySFX(audioManager.fart);
+//         RaycastHit hit;
+//         Ray ray = new Ray(bulletSpawnPoint.position, bulletSpawnPoint.forward);
+
+        
+//         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+//         Rigidbody bulletRigidbody = bullet.GetComponent<Rigidbody>();
+//         if (bulletRigidbody != null)
+//         {
+//             // Create a bullet instance at the bullet spawn point's position and rotation
+//             GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+            
+//             // Get the direction from the camera to the mouse cursor
+//             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+//             RaycastHit hit;
+//             Vector3 targetDirection;
+
+//             // Check if the raycast hits something in the scene
+//             if (Physics.Raycast(ray, out hit))
+//             {
+//                 // Set the target direction to the point where the raycast hit
+//                 targetDirection = hit.point - bulletSpawnPoint.position;
+//             }
+//             else
+//             {
+//                 // If the raycast doesn't hit anything, set the target direction to the direction of the ray
+//                 targetDirection = ray.direction;
+//             }
+
+//             // Rotate the bullet to face the target direction
+//             bullet.transform.rotation = Quaternion.LookRotation(targetDirection);
+
+//             // Apply force to the bullet in the forward direction
+//             bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed; // Adjust the speed as needed
+
+//             if (Physics.Raycast(ray, out hit, Mathf.Infinity, evilLayerMask))
+//             {
+//                 if (hit.collider.CompareTag("EvilCharacter"))
+//                 {
+//                     print("hit"); 
+//                     Destroy(bullet, .5f); 
+//                     hit.collider.GetComponent<EvilCharacter>().Goodify();
+//                 }
+//             }
+//         }
+//         else
+//         {
+//             Debug.LogError("Bullet prefab or bullet spawn point is not assigned!");
+//         }
+//     }
+// }
+
 using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
-    public LayerMask evilLayerMask;
     // Reference to the bullet prefab
     public GameObject bulletPrefab;
-    public float bulletSpeed = 10;
-    
+
+    // Reference to the bullet spawn point
+    public Transform bulletSpawnPoint;
+    public float bulletSpeed = 15f; 
+
+    // Shooting cooldown time (in seconds)
+    public float shootingCooldown = 0.2f;
+    private float shootingCooldownTimer = 0f;
+
     public AudioManager audioManager;
 
-    private void Awake()
-    {
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    private void Awake() { 
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>(); 
     }
-
 
     void Update()
     {
@@ -102,15 +198,9 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
-        print("shoot");
         audioManager.PlaySFX(audioManager.fart);
-        RaycastHit hit;
-        Ray ray = new Ray(bulletSpawnPoint.position, bulletSpawnPoint.forward);
-
-        
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
-        Rigidbody bulletRigidbody = bullet.GetComponent<Rigidbody>();
-        if (bulletRigidbody != null)
+        // Check if the bullet prefab and spawn point are assigned
+        if (bulletPrefab != null && bulletSpawnPoint != null)
         {
             // Create a bullet instance at the bullet spawn point's position and rotation
             GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
@@ -138,14 +228,11 @@ public class Gun : MonoBehaviour
             // Apply force to the bullet in the forward direction
             bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed; // Adjust the speed as needed
 
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity, evilLayerMask))
+            if (hit.collider.CompareTag("EvilCharacter"))
             {
-                if (hit.collider.CompareTag("EvilCharacter"))
-                {
-                    print("hit"); 
-                    Destroy(bullet, .5f); 
-                    hit.collider.GetComponent<EvilCharacter>().Goodify();
-                }
+                print("hit"); 
+                Destroy(bullet, .5f); 
+                hit.collider.GetComponent<EvilCharacter>().Goodify();
             }
         }
         else
