@@ -111,7 +111,7 @@ Domain Reload Profiling: 729ms
 			ProcessInitializeOnLoadAttributes (135ms)
 			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -173,7 +173,6 @@ Total: 4.800400 ms (FindLiveObjects: 0.610800 ms CreateObjectMapping: 0.737900 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
@@ -185,6 +184,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 993.827633 seconds.
+  path: Assets/3D Models/EvilMinion/evil_1_body.001.mat
+  artifactKey: Guid(cf9c2b2d94756e645bfc44101b28ae6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/EvilMinion/evil_1_body.001.mat using Guid(cf9c2b2d94756e645bfc44101b28ae6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1aca6f81d0adef0736e5da85556fe2') in 0.517136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/3D Models/EvilMinion/evil_1_body_baseColor.png
+  artifactKey: Guid(b24e1b73fb152774eb1326e9fbf4bd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/EvilMinion/evil_1_body_baseColor.png using Guid(b24e1b73fb152774eb1326e9fbf4bd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238a3d6e51836b6defff52a0ebbededb') in 0.084326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/3D Models/EvilMinion/evil_1_hair_solid.001.mat
+  artifactKey: Guid(44015c450df0f52498431b7195d7d7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/EvilMinion/evil_1_hair_solid.001.mat using Guid(44015c450df0f52498431b7195d7d7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533f99a923c3e52f4089b94e60c25d15') in 0.050917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/3D Models/EvilMinion/Running.fbx
+  artifactKey: Guid(f1b94dc12e1eec94dafc29b1c28d5e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/EvilMinion/Running.fbx using Guid(f1b94dc12e1eec94dafc29b1c28d5e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7579879f0f1b9bdfc1374355f8453a93') in 0.248135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 100
+========================================================================
+Received Import Request.
+  Time since last request: 32.041215 seconds.
+  path: Assets/3D Models/GoodBarney/barney.png
+  artifactKey: Guid(43d9e085682379349a106b0526b687c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/GoodBarney/barney.png using Guid(43d9e085682379349a106b0526b687c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c61a6890929f6ec3c60982eff1859b') in 0.083351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.683183 seconds.
+  path: Assets/3D Models/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Building Floor Tile - 01.png
+  artifactKey: Guid(ad19f5ff4e0a2814ebd9b97d269bcf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy/Building Floor Tile - 01.png using Guid(ad19f5ff4e0a2814ebd9b97d269bcf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126fc30938ca5a5d8ea04603f5a93756') in 0.027905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
@@ -221,7 +268,6 @@ Total: 4.638100 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.658400 m
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
