@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class EvilCharacter : MonoBehaviour
@@ -12,7 +13,13 @@ public class EvilCharacter : MonoBehaviour
     private bool isAttacking = false;
     private Rigidbody rb;
 
+    public AudioManager audioManager;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("EvilCharacter").GetComponent<AudioManager>();
+        
+    }
     /*
     public Color goodColor = Color.green;
     */
@@ -22,6 +29,9 @@ public class EvilCharacter : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        /*
+        StartCoroutine(SpawnDelay());
+    */
     }
 
     void Update()
@@ -53,6 +63,7 @@ public class EvilCharacter : MonoBehaviour
             {
                 // Attack the player
                 AttackPlayer();
+
             }
             else
             {
@@ -64,6 +75,12 @@ public class EvilCharacter : MonoBehaviour
             transform.LookAt(player);
         }
     }
+
+    /*private IEnumerator SpawnDelay()
+    {
+        yield return new WaitForSeconds(10);
+        audioManager.PlaySFX(audioManager.tbfart);
+    }*/
 
     void AttackPlayer()
     {
@@ -80,5 +97,7 @@ public class EvilCharacter : MonoBehaviour
         // Stop chasing or attacking the player
         // Optionally, you could disable the EvilCharacter's movement or attack components here
         enabled = false;
+        audioManager.PlaySFX(audioManager.tbfart);
+
     }
 }

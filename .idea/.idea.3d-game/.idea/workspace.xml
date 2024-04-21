@@ -6,25 +6,377 @@
   <component name="ChangeListManager">
     <list default="true" id="f32e219b-2ad4-4439-8e89-b90d50d444ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3d-game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3d-game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Marble_Dark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Marble_Dark.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Toothbrush_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Misc/Toothbrush_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Misc/WallArt_Apt_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Misc/WallArt_Apt_04.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Vase_Apt_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Vase_Apt_01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Wood Floor 01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/3D Models/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Wood Floor 01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/smg1/smg1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/smg1/smg1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/sniper1/sniper1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/sniper1/sniper1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/sniper2/sniper2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Low Poly Guns/Models/Guns/sniper2/sniper2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EvilBarney.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EvilBarney.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMotor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMotor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/AlphaCutoff.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/AlphaCutoff.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Bark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Bark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Bark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Bark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Branches.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Branches.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Branches.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Branches.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Fake Light Flash.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Fake Light Flash.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Grass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Logo 0.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Logo 0.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Logo 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Materials/Logo 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Meshes/Forest.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Meshes/Forest.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Scripts/SlenderExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Scripts/SlenderExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Scripts/TDControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Scripts/TDControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Sounds/Sounds.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Sounds/Sounds.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/BloomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/BloomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/CreaseShadingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/DepthOfFieldEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/EdgeDetectionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/SunShaftsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/TonemappingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/Neutral3D16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/Noise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/Noise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Environment/Standard Assets/Effects/ImageEffects/Textures/grayscale ramp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Scene/Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Example/Scene/Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Attack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Attack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Scream.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Scream.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Slender.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Slender.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/T Pose.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/T Pose.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Animations/Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Body.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Body.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Clotch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Clotch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Shoes.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Shoes.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Suit A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Suit A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Suit M.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Suit M.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Suit N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Suit N.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Suit.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/Suit.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/T N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/T N.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/T S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Materials/T S.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Mesh/Slender.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Mesh/Slender.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Prefab/Slender.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Prefab/Slender.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Sounds/Slender.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/#NVJOB Slender/Slender/Sounds/Slender.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/EvilCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/EvilCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Gun.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +473,8 @@
       <workItem from="1712901589168" duration="592000" />
       <workItem from="1713099560218" duration="580000" />
       <workItem from="1713150799027" duration="856000" />
-      <workItem from="1713268328017" duration="1913000" />
+      <workItem from="1713268328017" duration="2114000" />
+      <workItem from="1713690541426" duration="4619000" />
     </task>
     <servers />
   </component>

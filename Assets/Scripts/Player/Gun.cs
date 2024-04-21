@@ -13,6 +13,13 @@ public class Gun : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 10;
 
+    public AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -24,6 +31,7 @@ public class Gun : MonoBehaviour
     void Shoot()
     {
         print("shoot");
+        audioManager.PlaySFX(audioManager.fart);
         RaycastHit hit;
         Ray ray = new Ray(bulletSpawnPoint.position, bulletSpawnPoint.forward);
 
