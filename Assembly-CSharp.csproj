@@ -109,17 +109,17 @@
     <Compile Include="Assets/3D Models/Sketchfab For Unity/Scripts/SketchfabExporter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets/3D Models/Sketchfab For Unity/Dependencies/Shaders/GLTFFlipTexture.shader" />
-    <None Include="Assets/3D Models/Sketchfab For Unity/Dependencies/Shaders/GLTFColorSpace.cginc" />
-    <None Include="Assets/3D Models/JP Environmental Asset Pack/Shaders/DoubleSided.shader" />
-    <None Include="Assets/3D Models/Sketchfab For Unity/Dependencies/Shaders/GLTFPackOccMetalRough.shader" />
-    <None Include="Assets/3D Models/Sketchfab For Unity/Dependencies/Libraries/Newtonsoft.Json.dll" />
-    <None Include="Assets/3D Models/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll" />
-    <None Include="Assets/3D Models/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll" />
-    <None Include="Assets/3D Models/Sketchfab For Unity/Dependencies/Shaders/GLTFBumpToNormal.shader" />
-    <None Include="Assets/3D Models/teletuffy/license.txt" />
-    <None Include="Assets/3D Models/Brick Project Studio/Apartment Kit/Scenes/BPS Apartment Kit.txt" />
-    <None Include="Assets/3D Models/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll" />
+    <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Shaders\GLTFFlipTexture.shader" />
+    <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Shaders\GLTFColorSpace.cginc" />
+    <None Include="Assets\3D Models\JP Environmental Asset Pack\Shaders\DoubleSided.shader" />
+    <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Shaders\GLTFPackOccMetalRough.shader" />
+    <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Libraries\Newtonsoft.Json.dll" />
+    <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Libraries\SketchfabPlugin.dll" />
+    <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Libraries\Ionic.Zip.Unity.dll" />
+    <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Shaders\GLTFBumpToNormal.shader" />
+    <None Include="Assets\3D Models\Characters\teletuffy\license.txt" />
+    <None Include="Assets\3D Models\Brick Project Studio\Apartment Kit\Scenes\BPS Apartment Kit.txt" />
+    <None Include="Assets\3D Models\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

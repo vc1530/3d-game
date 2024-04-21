@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         // Implement game over logic here
-        Debug.Log("Player died!");
+        //Debug.Log("Player died!");
         // For example, you could show a game over screen, restart the level, etc.
     }
 }

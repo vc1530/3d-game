@@ -4,7 +4,7 @@ using UnityEditor;
 public class EvilCharacter : MonoBehaviour
 {
     public float movementSpeed = 2f;
-    public float attackRange = 3f;
+    public float attackRange = 1f;
     public float attackDamage = 10f;
 
     private Transform player;
@@ -51,6 +51,8 @@ public class EvilCharacter : MonoBehaviour
             if (direction.magnitude <= attackRange && !isAttacking)
             {
                 // Attack the player
+                Debug.Log(attackRange + "direction:" + direction.magnitude);
+                movementSpeed = 0;
                 AttackPlayer();
             }
             else
