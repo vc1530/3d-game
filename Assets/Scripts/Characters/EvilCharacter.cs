@@ -1,22 +1,22 @@
 using UnityEngine;
+using UnityEditor;
 
 public class EvilCharacter : MonoBehaviour
 {
     public float movementSpeed = 2f;
-    public float attackRange = 3f;
+    public float attackRange = 5f;
     public float attackDamage = 10f;
 
     private Transform player;
-    private bool isGood = false;
+    public bool isGood = false;
 
     private bool isAttacking = false;
     private Rigidbody rb;
 
+    public GameObject goodCharacter; 
+    public Transform goodCharacterTransform;
 
-    /*
-    public Color goodColor = Color.green;
-    */
-
+    public LayerMask groundLayer;
 
     void Start()
     {
@@ -26,38 +26,32 @@ public class EvilCharacter : MonoBehaviour
 
     void Update()
     {
-        //if (!isGood) // Only move or attack if not "good"
-        //{
-        //    if (Vector3.Distance(transform.position, player.position) > attackRange)
-        //    {
-        //        //transform.LookAt(player);
-        //        //transform.Translate(transform.forward * movementSpeed * Time.deltaTime);
-        //        //transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
-        //    }
-        //    else
-        //    {
-        //        AttackPlayer();
-        //    }
-        //}
+        if (gameObject.name != "GiantOne") { 
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, groundLayer))
+            {
+                // Move the character to the point where the ray hit the ground.
+                transform.position = hit.point;
+            }
+        }
 
-        if (player != null)
+        if (!isGood && player != null)
         {
             // Calculate the direction towards the player
             Vector3 direction = player.position - transform.position;
 
-            // Move towards the player
-            rb.velocity = direction.normalized * movementSpeed;
-
-            // Check if the enemy is within attack range
-            if (direction.magnitude <= attackRange && !isAttacking)
+            print("Direction" + direction.magnitude); 
+            if (direction.magnitude <= attackRange)
             {
                 // Attack the player
-                AttackPlayer();
+                Debug.Log(attackRange + "direction:" + direction.magnitude);
+                rb.velocity = direction.normalized * movementSpeed;
+
             }
             else
             {
-                // Stop attacking
-                isAttacking = false;
+                print("else no movement"); 
+                rb.velocity = Vector3.zero; 
             }
 
             // Rotate the enemy to face the player
@@ -70,15 +64,13 @@ public class EvilCharacter : MonoBehaviour
         player.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
     }
 
-    public void Goodify(Color goodColor)
+    public void Goodify()
     {
-        
-        Debug.Log("Goodify method called");
+        print("goodifying"); 
         isGood = true;
-        GetComponent<Renderer>().material.color = goodColor;
-        Debug.Log("Character color changed to " + goodColor);
-        // Stop chasing or attacking the player
-        // Optionally, you could disable the EvilCharacter's movement or attack components here
-        enabled = false;
+
+        gameObject.SetActive(false); 
+        goodCharacterTransform.position = transform.position; 
+        goodCharacter.SetActive(true); 
     }
 }
