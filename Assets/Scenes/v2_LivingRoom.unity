@@ -1178,6 +1178,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 65d72af2f614466478d9d8d8d7593b95, type: 2}
+    - target: {fileID: 222543222697603006, guid: 93bed56ee7cca48af84a2872184feab2,
+        type: 3}
+      propertyPath: nextSceneName
+      value: EvilMinionMap
+      objectReference: {fileID: 0}
     - target: {fileID: 1062735443992755148, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: bulletSpawnPoint

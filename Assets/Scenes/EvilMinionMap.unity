@@ -23983,6 +23983,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: bd991765b967a6a4cbb9a0957b7a6d35, type: 2}
+    - target: {fileID: 222543222697603006, guid: 93bed56ee7cca48af84a2872184feab2,
+        type: 3}
+      propertyPath: nextSceneName
+      value: EvilBarney
+      objectReference: {fileID: 0}
     - target: {fileID: 1062735443992755148, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: audioManager

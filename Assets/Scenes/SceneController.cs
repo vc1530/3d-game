@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    [SerializeField] private int _charInTotal = 0;
+    [SerializeField] public int _charInTotal = 0;
     public float SceneChangeWaitTime = 2f;
 
     public string nextSceneName;
@@ -18,6 +18,8 @@ public class SceneController : MonoBehaviour
             print(evilChar.name);
         }
         _charInTotal = charList.Length;
+        Debug.Log(_charInTotal);
+        
         if (nextSceneName == "")
         {
             Debug.LogWarning("The next scene name is empty on " + gameObject.name);
@@ -29,6 +31,7 @@ public class SceneController : MonoBehaviour
         {
             _sceneLoading = true;
             StartCoroutine(WaitAndChangeScene());
+            Debug.Log("All GOOD");
         }
     }
 
