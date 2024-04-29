@@ -21472,7 +21472,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 350474639}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 1009873793}
 --- !u!136 &1273165140
 CapsuleCollider:
