@@ -35537,6 +35537,11 @@ PrefabInstance:
       propertyPath: nextSceneName
       value: EvilTeletubbiesForest
       objectReference: {fileID: 0}
+    - target: {fileID: 850179853229279376, guid: 93bed56ee7cca48af84a2872184feab2,
+        type: 3}
+      propertyPath: maxHealth
+      value: 50000
+      objectReference: {fileID: 0}
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: m_LocalScale.x

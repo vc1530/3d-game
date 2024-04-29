@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float maxHealth = 100f;
+    public float maxHealth = 5000f;
     public float currentHealth;
 
     void Start()
@@ -13,10 +14,13 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
+        print(currentHealth); 
         // Check if the player's health drops below 0
         if (currentHealth <= 0)
         {
-            Die();
+            Scene thisScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(thisScene.name);
+            //Die();
         }
     }
 
