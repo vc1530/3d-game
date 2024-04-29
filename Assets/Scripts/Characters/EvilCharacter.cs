@@ -5,7 +5,7 @@ public class EvilCharacter : MonoBehaviour
 {
     public float movementSpeed = 2f;
     public float attackRange = 5f;
-    public float attackDamage = 10f;
+    public float attackDamage = 1f;
 
     private Transform player;
     public bool isGood = false;
