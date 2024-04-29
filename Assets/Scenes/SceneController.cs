@@ -13,10 +13,10 @@ public class SceneController : MonoBehaviour
     void Start()
     {
         var charList = GameObject.FindGameObjectsWithTag("EvilCharacter");
-        foreach (var evilChar in charList)
-        {
-            print(evilChar.name);
-        }
+        // foreach (var evilChar in charList)
+        // {
+        //     print(evilChar.name);
+        // }
         _charInTotal = charList.Length;
         if (nextSceneName == "")
         {
@@ -28,6 +28,7 @@ public class SceneController : MonoBehaviour
         if (PlayerMotor.goodCharCounter == _charInTotal && !_sceneLoading)
         {
             _sceneLoading = true;
+            PlayerMotor.goodCharCounter = 0; 
             StartCoroutine(WaitAndChangeScene());
         }
     }
