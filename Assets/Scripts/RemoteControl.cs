@@ -18,27 +18,27 @@ public class RemoteControl : MonoBehaviour
     void Start()
     {
         index = 1; 
-        vid.clip = Teletubbies; 
-        currentClip = Teletubbies; 
+        vid.clip = Minions; 
+        currentClip = Minions; 
         shows = new VideoClip[] {Minions, Teletubbies, Barney};
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow)) { 
-            if (index > 0) index--; 
-            print(index); 
-            print (shows[index]); 
-            vid.clip = shows[index]; 
-            currentClip = shows[index]; 
-        }
-        if (Input.GetKeyDown(KeyCode.RightArrow)){ 
-            if (index < 2) index++; 
-            print(index); 
-            print (shows[index]); 
-            vid.clip = shows[index]; 
-            currentClip = shows[index]; 
-        }
+        //if (Input.GetKeyDown(KeyCode.LeftArrow)) { 
+        //    if (index > 0) index--; 
+        //    print(index); 
+        //    print (shows[index]); 
+        //    vid.clip = shows[index]; 
+        //    currentClip = shows[index]; 
+        //}
+        //if (Input.GetKeyDown(KeyCode.RightArrow)){ 
+        //    if (index < 2) index++; 
+        //    print(index); 
+        //    print (shows[index]); 
+        //    vid.clip = shows[index]; 
+        //    currentClip = shows[index]; 
+        //}
     }
 }
