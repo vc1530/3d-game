@@ -24000,6 +24000,11 @@ PrefabInstance:
       propertyPath: nextSceneName
       value: EvilBarney
       objectReference: {fileID: 0}
+    - target: {fileID: 850179853229279376, guid: 93bed56ee7cca48af84a2872184feab2,
+        type: 3}
+      propertyPath: maxHealth
+      value: 30000
+      objectReference: {fileID: 0}
     - target: {fileID: 1062735443992755148, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: audioManager
