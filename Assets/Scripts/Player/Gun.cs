@@ -163,7 +163,41 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
-    // Reference to the bullet prefab
+    public GameObject bulletPrefab;
+    public Transform bulletSpawnPoint;
+    public float bulletSpeed = 10f;
+
+    void Update()
+    {
+        if (Input.GetButtonDown("Fire1")) // Assuming Fire1 is the left mouse button
+        {
+            FireBullet();
+        }
+    }
+
+    void FireBullet()
+    {
+        // Get the center of the screen
+        Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, 0);
+        
+        // Calculate the direction from the bullet spawn point to the center of the screen
+        Vector3 shootDirection = Camera.main.ScreenToWorldPoint(screenCenter) - bulletSpawnPoint.position;
+        shootDirection.Normalize();
+
+        // Instantiate the bullet at the bullet spawn point's position and rotation
+        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+        
+        // Get the bullet's Rigidbody component and apply velocity in the calculated direction
+        Rigidbody bulletRigidbody = bullet.GetComponent<Rigidbody>();
+        if (bulletRigidbody != null)
+        {
+            bulletRigidbody.velocity = shootDirection * bulletSpeed;
+        }
+    }
+    
+}
+
+    /*// Reference to the bullet prefab
     public GameObject bulletPrefab;
 
     // Reference to the bullet spawn point
@@ -198,7 +232,7 @@ public class Gun : MonoBehaviour
             
             // Reset the shooting cooldown timer
             shootingCooldownTimer = shootingCooldown;
-        }*/
+        }#1#
     }
 
     public void Fire()
@@ -249,11 +283,10 @@ public class Gun : MonoBehaviour
                 print("hit"); 
                 Destroy(bullet, .5f); 
                 hit.collider.GetComponent<EvilCharacter>().Goodify();
-            }*/
+            }#1#
         }
         else
         {
             Debug.LogError("Bullet prefab or bullet spawn point is not assigned!");
         }
-    }
-}
+    }*/
