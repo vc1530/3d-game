@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
+  m_IndirectSpecularColor: {r: 0.029514702, g: 0.022565152, b: 0.013817105, a: 1}
+=======
   m_IndirectSpecularColor: {r: 0.02951334, g: 0.022564009, b: 0.01381656, a: 1}
+>>>>>>> main
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7871,7 +7875,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 1242611494}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 1731237121}
 --- !u!54 &445895683
 Rigidbody:
@@ -8827,7 +8831,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 2012523155}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 1731237121}
 --- !u!54 &484689971
 Rigidbody:
@@ -8940,7 +8944,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 1943942647}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 1731237121}
 --- !u!54 &486567880
 Rigidbody:
@@ -18570,7 +18574,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 900484680}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 1731237121}
 --- !u!54 &1066354281
 Rigidbody:
@@ -19968,7 +19972,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 111049421}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 1731237121}
 --- !u!54 &1109591249
 Rigidbody:
@@ -27630,7 +27634,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 513004650}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 1731237121}
 --- !u!54 &1514239412
 Rigidbody:
@@ -28668,7 +28672,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 630047348}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 1731237121}
 --- !u!54 &1578461308
 Rigidbody:
@@ -36150,7 +36154,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 358142755}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 1731237121}
 --- !u!54 &2006965973
 Rigidbody:
