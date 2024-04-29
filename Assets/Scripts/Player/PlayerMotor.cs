@@ -19,6 +19,7 @@ public class PlayerMotor : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>(); 
+        goodCharCounter = 0; 
     }
 
     // Update is called once per frame
