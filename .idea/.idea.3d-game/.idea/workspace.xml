@@ -7,13 +7,7 @@
     <list default="true" id="f32e219b-2ad4-4439-8e89-b90d50d444ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3d-game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3d-game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EvilBarney.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EvilBarney.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EvilMinionMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EvilMinionMap.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Gun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Gun.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Videos/Barney.mov.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Videos/Minions.mov.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +106,8 @@
       <workItem from="1713099560218" duration="580000" />
       <workItem from="1713707788161" duration="335000" />
       <workItem from="1714112572121" duration="935000" />
-      <workItem from="1714378855563" duration="1783000" />
+      <workItem from="1714378855563" duration="1978000" />
+      <workItem from="1714641558525" duration="2387000" />
     </task>
     <servers />
   </component>
