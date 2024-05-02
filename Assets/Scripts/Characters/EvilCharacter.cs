@@ -1,17 +1,18 @@
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.AI; 
 
 public class EvilCharacter : MonoBehaviour
 {
-    public float movementSpeed = 2f;
+    // public float movementSpeed = 2f;
     public float attackRange = 5f;
     public float attackDamage = 1f;
 
     private Transform player;
-    public bool isGood = false;
+    //public bool isGood = false;
 
-    private bool isAttacking = false;
-    private Rigidbody rb;
+    //private bool isAttacking = false;
+    //private Rigidbody rb;
 
     public GameObject goodCharacter; 
     public Transform goodCharacterTransform;
@@ -19,6 +20,9 @@ public class EvilCharacter : MonoBehaviour
     public LayerMask groundLayer; 
 
     public AudioManager audioManager;
+
+    private NavMeshAgent agent; 
+    private bool isChasingPlayer = false;
 
     private void Awake()
     {
@@ -29,7 +33,7 @@ public class EvilCharacter : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
@@ -44,25 +48,28 @@ public class EvilCharacter : MonoBehaviour
             }
         }
 
-        if (!isGood && player != null)
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+        if (distanceToPlayer <= attackRange)
         {
-            // Calculate the direction towards the player
-            Vector3 direction = player.position - transform.position;
-
-            if (direction.magnitude <= attackRange)
+            if (!isChasingPlayer)
             {
-                // Attack the player
-                rb.velocity = direction.normalized * movementSpeed;
-                AttackPlayer(); 
+                isChasingPlayer = true;
+                agent.SetDestination(player.position); 
             }
-            else
-            {
-                rb.velocity = Vector3.zero; 
-            }
-
-            // Rotate the enemy to face the player
-            transform.LookAt(player);
+            agent.SetDestination(player.position);
         }
+        else { 
+            if (isChasingPlayer)
+            {
+                agent.SetDestination(player.position);
+            }
+        } 
+
+    }
+
+    void OnCollisionEnter(Collision col) { 
+        if (col.gameObject.CompareTag("Player")) AttackPlayer(); 
     }
 
     void AttackPlayer()
@@ -73,7 +80,7 @@ public class EvilCharacter : MonoBehaviour
     public void Goodify()
     {
         print("goodifying"); 
-        isGood = true;
+        //isGood = true;
 
         PlayerMotor.goodCharCounter++;
         print(PlayerMotor.goodCharCounter); 

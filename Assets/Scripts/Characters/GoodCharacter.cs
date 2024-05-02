@@ -28,7 +28,6 @@ public class GoodCharacter : MonoBehaviour
         print("evilifying"); 
         print(PlayerMotor.goodCharCounter); 
         gameObject.SetActive(false); 
-        evilCharacter.GetComponent<EvilCharacter>().isGood = false; 
         evilCharacter.SetActive(true); 
     }
 }
