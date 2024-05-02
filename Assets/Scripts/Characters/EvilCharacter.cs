@@ -49,17 +49,14 @@ public class EvilCharacter : MonoBehaviour
             // Calculate the direction towards the player
             Vector3 direction = player.position - transform.position;
 
-            print("Direction" + direction.magnitude); 
             if (direction.magnitude <= attackRange)
             {
                 // Attack the player
-                Debug.Log(attackRange + "direction:" + direction.magnitude);
                 rb.velocity = direction.normalized * movementSpeed;
-
+                AttackPlayer(); 
             }
             else
             {
-                print("else no movement"); 
                 rb.velocity = Vector3.zero; 
             }
 
