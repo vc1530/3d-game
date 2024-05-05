@@ -35,18 +35,21 @@ public class EvilCharacter : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        agent.enabled = true; 
     }
 
     void Update()
     {
-        if (gameObject.name != "GiantOne") { 
+        //if (gameObject.name != "GiantOne") { 
             RaycastHit hit;
             if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, groundLayer))
             {
                 // Move the character to the point where the ray hit the ground.
                 transform.position = hit.point;
             }
-        }
+        //}
+
+        //agent.SetDestination(player.position); 
 
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
@@ -65,6 +68,8 @@ public class EvilCharacter : MonoBehaviour
                 agent.SetDestination(player.position);
             }
         } 
+
+        transform.LookAt(player); 
 
     }
 
