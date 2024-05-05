@@ -167,6 +167,7 @@ public class Gun : MonoBehaviour
     public Transform bulletSpawnPoint;
     public float bulletSpeed = 10f;
     public AudioManager audioManager;
+    public float zPoint=-470f;
     
 
      private void Awake()
@@ -181,57 +182,13 @@ public class Gun : MonoBehaviour
         }
     }
 
-    /*void FireBullet()
-    {
-        // Get the center of the screen
-        Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, 0);
-        
-        // Calculate the direction from the bullet spawn point to the center of the screen
-        Vector3 shootDirection = Camera.main.ScreenToWorldPoint(screenCenter) - bulletSpawnPoint.position;
-        shootDirection.Normalize();
-
-        // Instantiate the bullet at the bullet spawn point's position and rotation
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
-        
-        // Get the bullet's Rigidbody component and apply velocity in the calculated direction
-        Rigidbody bulletRigidbody = bullet.GetComponent<Rigidbody>();
-        if (bulletRigidbody != null)
-        {
-            bulletRigidbody.velocity = shootDirection * bulletSpeed;
-        }
-    }*/
-    
-    /*void FireBullet()
-    {
-        // Get the center of the screen
-        Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, 0);
-        
-        // Calculate the direction from the bullet spawn point to the center of the screen
-        Vector3 aimDirection = Camera.main.ScreenToWorldPoint(screenCenter) - bulletSpawnPoint.position;
-        aimDirection.Normalize();
-
-        // Instantiate the bullet at the bullet spawn point's position and rotation
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
-        
-        // Get the bullet's Rigidbody component
-        Rigidbody bulletRigidbody = bullet.GetComponent<Rigidbody>();
-
-        // Apply velocity in the forward direction (from the tip of the gun)
-        if (bulletRigidbody != null)
-        {
-            bulletRigidbody.velocity = bulletSpawnPoint.forward * bulletSpeed;
-        }
-
-        // Rotate the bullet to face towards the center of the screen
-        bullet.transform.LookAt(Camera.main.transform.position);
-    }*/
-    
+  
     void FireBullet()
     {
         audioManager.PlaySFX(audioManager.fart);
 
         // Get the center of the screen
-        Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, -470);
+        Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, zPoint);
 
         // Calculate the direction from the bullet spawn point to the center of the screen
         Vector3 aimDirection = Camera.main.ScreenToWorldPoint(screenCenter) - bulletSpawnPoint.position;
