@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00001854927, g: 0.00000003453888, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18159595, g: 0.22344309, b: 0.2853588, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16379,7 +16379,7 @@ MonoBehaviour:
   goodCharacterTransform: {fileID: 2132377435}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   audioManager: {fileID: 709826256}
 --- !u!4 &467015982 stripped
 Transform:
@@ -51962,6 +51962,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3934856470675696981, guid: 93bed56ee7cca48af84a2872184feab2,
+        type: 3}
+      propertyPath: bulletSpeed
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 3934856470675696981, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}

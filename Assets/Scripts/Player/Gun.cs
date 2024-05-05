@@ -166,7 +166,13 @@ public class Gun : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform bulletSpawnPoint;
     public float bulletSpeed = 10f;
+    public AudioManager audioManager;
+    
 
+     private void Awake()
+     {
+         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+     }
     void Update()
     {
         if (Input.GetButtonDown("Fire1")) // Assuming Fire1 is the left mouse button
@@ -222,12 +228,17 @@ public class Gun : MonoBehaviour
     
     void FireBullet()
     {
+        audioManager.PlaySFX(audioManager.fart);
+
         // Get the center of the screen
-        Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, 0);
+        Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, -470);
 
         // Calculate the direction from the bullet spawn point to the center of the screen
         Vector3 aimDirection = Camera.main.ScreenToWorldPoint(screenCenter) - bulletSpawnPoint.position;
         aimDirection.Normalize();
+        /*
+        Vector3 direction = Camera.main.transform.forward + new Vector3(0, 0, 0);
+        */
 
         // Instantiate the bullet at the bullet spawn point's position and rotation
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
