@@ -1438,7 +1438,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 71522092}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1469,7 +1469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 240351233}
   goodCharacterTransform: {fileID: 240351238}
@@ -8665,7 +8665,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175968694}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -8696,7 +8696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1575727273}
   goodCharacterTransform: {fileID: 1575727278}
@@ -10340,7 +10340,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248590704}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -10371,7 +10371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1241486194}
   goodCharacterTransform: {fileID: 1241486199}
@@ -11281,12 +11281,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 341687948}
   m_SourcePrefab: {fileID: 100100000, guid: c9645793d6d42d44aaa4eeb98e194e69, type: 3}
---- !u!4 &287668785 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7238565672315307510, guid: 93bed56ee7cca48af84a2872184feab2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1967300713}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &290653591 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 825509911275529788, guid: 81c7dd4128008d84fbd14127f8cdc039,
@@ -14373,7 +14367,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406358383}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -14404,7 +14398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1183171233}
   goodCharacterTransform: {fileID: 1183171238}
@@ -16377,7 +16371,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466529209}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -16408,7 +16402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 2132377430}
   goodCharacterTransform: {fileID: 2132377435}
@@ -17478,7 +17472,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486853610}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -17509,7 +17503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 528442643}
   goodCharacterTransform: {fileID: 528442648}
@@ -25729,7 +25723,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656893293}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -25760,7 +25754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1263904992}
   goodCharacterTransform: {fileID: 1263904997}
@@ -28434,7 +28428,7 @@ RectTransform:
   - {fileID: 1909077945}
   - {fileID: 2076876802}
   - {fileID: 704105661}
-  m_Father: {fileID: 287668785}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -28801,7 +28795,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890113253}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -28832,7 +28826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 2028548454}
   goodCharacterTransform: {fileID: 2028548459}
@@ -31524,7 +31518,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094771103}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -31555,7 +31549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 362470682}
   goodCharacterTransform: {fileID: 362470687}
@@ -36662,7 +36656,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294688450}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -36693,7 +36687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1051863248}
   goodCharacterTransform: {fileID: 1051863253}
@@ -38737,7 +38731,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344052216}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -38768,7 +38762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1123168727}
   goodCharacterTransform: {fileID: 1123168732}
@@ -42914,7 +42908,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572705936}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -42945,7 +42939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1003310377}
   goodCharacterTransform: {fileID: 1003310382}
@@ -44139,7 +44133,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611269797}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -44170,7 +44164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1854795178}
   goodCharacterTransform: {fileID: 1854795183}
@@ -45472,7 +45466,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706838689}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -45503,7 +45497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1343150741}
   goodCharacterTransform: {fileID: 1343150746}
@@ -46417,7 +46411,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742065936}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -46448,7 +46442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1771652816}
   goodCharacterTransform: {fileID: 1771652821}
@@ -50631,7 +50625,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931107969}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -50662,7 +50656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1901743968}
   goodCharacterTransform: {fileID: 1901743973}
@@ -51247,11 +51241,7 @@ PrefabInstance:
     - {fileID: 1062735443992755148, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
     - {fileID: 2089085060585378131, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7238565672315307510, guid: 93bed56ee7cca48af84a2872184feab2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 863748291}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
@@ -53492,7 +53482,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076198331}
   serializedVersion: 4
-  m_Mass: 200
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -53523,7 +53513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31279c74403bc48fca923bbe9d302a26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 100
+  attackRange: 200
   attackDamage: 10
   goodCharacter: {fileID: 1372456965}
   goodCharacterTransform: {fileID: 1372456970}
@@ -54631,3 +54621,4 @@ SceneRoots:
   - {fileID: 121326701}
   - {fileID: 284109103}
   - {fileID: 1245952447}
+  - {fileID: 863748291}

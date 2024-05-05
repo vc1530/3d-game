@@ -26,7 +26,7 @@ public class ManageScene : MonoBehaviour
     public IEnumerator ChangeScene()
     {
         fade.FadeIn();
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(7);
         SceneManager.LoadScene("EndScreen");
     }
 
