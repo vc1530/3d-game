@@ -20769,9 +20769,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccd2f01e4b8324f5eb17ee8cf25e0f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 300
-  minYAngle: -80
-  maxYAngle: 80
+  mouseSensitivity: 2
+  playerBody: {fileID: 1394426080}
 --- !u!114 &1127095288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26573,6 +26572,12 @@ PrefabInstance:
 --- !u!4 &1394426079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7238565672315307510, guid: 93bed56ee7cca48af84a2872184feab2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1394426078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1394426080 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
     type: 3}
   m_PrefabInstance: {fileID: 1394426078}
   m_PrefabAsset: {fileID: 0}
