@@ -40,16 +40,12 @@ public class EvilCharacter : MonoBehaviour
 
     void Update()
     {
-        //if (gameObject.name != "GiantOne") { 
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, groundLayer))
-            {
-                // Move the character to the point where the ray hit the ground.
-                transform.position = hit.point;
-            }
-        //}
-
-        //agent.SetDestination(player.position); 
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, Mathf.Infinity, groundLayer))
+        {
+            // Move the character to the point where the ray hit the ground.
+            transform.position = hit.point;
+        }
 
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
