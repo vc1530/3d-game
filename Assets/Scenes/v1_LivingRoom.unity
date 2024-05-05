@@ -1155,7 +1155,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       insertIndex: -1
+<<<<<<< HEAD
+      addedObject: {fileID: 1239764877}
+=======
       addedObject: {fileID: 482704891}
+>>>>>>> main
   m_SourcePrefab: {fileID: 100100000, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
 --- !u!1 &482704889 stripped
 GameObject:
@@ -3399,6 +3403,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.007607426, y: 0.023443464, z: 0.0010046257}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1239764876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
+    type: 3}
+  m_PrefabInstance: {fileID: 482704888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1239764877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239764876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd2f01e4b8324f5eb17ee8cf25e0f80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 2
+  playerBody: {fileID: 1239764888}
+--- !u!4 &1239764888 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
+    type: 3}
+  m_PrefabInstance: {fileID: 482704888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1248824709 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5476032924358308219, guid: 4169ec924838be848a2b51ec3592b1e7,
@@ -3687,9 +3717,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vid: {fileID: 1599222868}
-  Minions: {fileID: 32900000, guid: 11eb7ea79d7813b4db7781d0107a31e8, type: 3}
+  Minions: {fileID: 32900000, guid: a855593e9f9134e0a92a1855cbb7a28a, type: 3}
   Teletubbies: {fileID: 32900000, guid: e8d5239295d7246a08c598de6c94b2d0, type: 3}
-  Barney: {fileID: 32900000, guid: 91c9989cf51c1cb4c81425cdf7093319, type: 3}
+  Barney: {fileID: 32900000, guid: 9462ccd4099b24277ad097a199b7f71d, type: 3}
   currentClip: {fileID: 0}
 --- !u!23 &1427131270
 MeshRenderer:
