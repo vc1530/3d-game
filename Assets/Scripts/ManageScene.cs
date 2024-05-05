@@ -5,25 +5,34 @@ using UnityEngine.SceneManagement;
 
 public class ManageScene : MonoBehaviour
 {
+
+    FadeInOut fade;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        fade = FindObjectOfType<FadeInOut>();
     }
 
     // Update is called once per frame
-    void Update()
+    //void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.Escape))
+    //    {
+    //        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    //    }
+    //}
+
+    public IEnumerator ChangeScene()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+        fade.FadeIn();
+        yield return new WaitForSeconds(10);
+        SceneManager.LoadScene("EndScreen");
     }
 
     public void ResetGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        print("Button working");
     }
 
     public void DoExitGame()
@@ -35,6 +44,12 @@ public class ManageScene : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
-        Debug.Log("Loaded Scene: " + sceneName);
+
+        if (sceneName == "EndScreen")
+        {
+            StartCoroutine(ChangeScene());
+        }
+        //Debug.Log("Loaded Scene: " + sceneName);
     }
+
 }

@@ -51091,7 +51091,7 @@ PrefabInstance:
     - target: {fileID: 222543222697603006, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: nextSceneName
-      value: EndScreen
+      value: v2_LivingRoom
       objectReference: {fileID: 0}
     - target: {fileID: 850179853229279376, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
