@@ -1447,8 +1447,14 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1492751470}
+      addedObject: {fileID: 1492751472}
   m_SourcePrefab: {fileID: 100100000, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
+--- !u!4 &482704889 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
+    type: 3}
+  m_PrefabInstance: {fileID: 482704888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &494288736 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3426433123599418573, guid: 4169ec924838be848a2b51ec3592b1e7,
@@ -4155,22 +4161,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 482704888}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1492751470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492751458}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 929c7b132df038d49b70618b06e56011, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvasGroup: {fileID: 402673823}
-  fadeIn: 1
-  fadeOut: 0
-  TimeToFade: 2
 --- !u!114 &1492751471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4183,6 +4173,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52abb399b17f2394b89860e3cba77d49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1492751472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492751458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd2f01e4b8324f5eb17ee8cf25e0f80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 2
+  playerBody: {fileID: 482704889}
 --- !u!1 &1555914933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5536689636315656469, guid: 4169ec924838be848a2b51ec3592b1e7,
