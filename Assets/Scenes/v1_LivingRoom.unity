@@ -1155,8 +1155,38 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       insertIndex: -1
+<<<<<<< HEAD
       addedObject: {fileID: 1239764877}
+=======
+      addedObject: {fileID: 482704891}
+>>>>>>> main
   m_SourcePrefab: {fileID: 100100000, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
+--- !u!1 &482704889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
+    type: 3}
+  m_PrefabInstance: {fileID: 482704888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &482704890 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
+    type: 3}
+  m_PrefabInstance: {fileID: 482704888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &482704891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482704889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd2f01e4b8324f5eb17ee8cf25e0f80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 2
+  playerBody: {fileID: 482704890}
 --- !u!1 &494288736 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3426433123599418573, guid: 4169ec924838be848a2b51ec3592b1e7,

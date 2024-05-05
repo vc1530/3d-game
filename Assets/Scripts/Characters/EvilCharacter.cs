@@ -35,7 +35,7 @@ public class EvilCharacter : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        agent.enabled = true; 
+        agent.enabled = true;
     }
 
     void Update()
