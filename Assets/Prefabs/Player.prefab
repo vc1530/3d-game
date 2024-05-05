@@ -50,7 +50,6 @@ MonoBehaviour:
     type: 3}
   bulletSpawnPoint: {fileID: 7976514409230037534}
   bulletSpeed: 15
-  shootingCooldown: 0.2
   audioManager: {fileID: 0}
 --- !u!1 &3294750608324276297
 GameObject:
@@ -80,7 +79,7 @@ Transform:
   m_GameObject: {fileID: 3294750608324276297}
   serializedVersion: 2
   m_LocalRotation: {x: -0.061267056, y: 0.00677739, z: 0.00041602712, w: 0.9980983}
-  m_LocalPosition: {x: -0, y: 0.748, z: -0.09}
+  m_LocalPosition: {x: 0.016, y: 0.748, z: -0.068}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -463,6 +462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  healthBar: {fileID: 0}
 --- !u!114 &1062735443992755148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -479,7 +479,6 @@ MonoBehaviour:
     type: 3}
   bulletSpawnPoint: {fileID: 7976514409230037534}
   bulletSpeed: 15
-  shootingCooldown: 0.2
   audioManager: {fileID: 0}
 --- !u!1001 &2307487655778320473
 PrefabInstance:
