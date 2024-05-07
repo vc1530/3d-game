@@ -9,6 +9,11 @@ public class PlayerMouseRotation : MonoBehaviour
 
     float verticalRotation = 0f;
 
+    void Start() { 
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     void Update()
     {
         // Mouse input for camera rotation
