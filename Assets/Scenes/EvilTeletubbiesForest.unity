@@ -11910,7 +11910,7 @@ MonoBehaviour:
   evilCharacter: {fileID: 0}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
 --- !u!54 &341687949
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -51016,11 +51016,11 @@ PrefabInstance:
         type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 704105662}
     - target: {fileID: 850179853229279376, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
       propertyPath: maxHealth
-      value: 1000
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 1062735443992755148, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}

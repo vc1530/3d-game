@@ -5006,7 +5006,7 @@ MonoBehaviour:
   evilCharacter: {fileID: 1233780492}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
 --- !u!65 &231414952
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11580,7 +11580,7 @@ RectTransform:
   - {fileID: 329206883}
   - {fileID: 1739330422}
   - {fileID: 1823234298}
-  m_Father: {fileID: 1995815523}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -45698,8 +45698,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 850179853229279376, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1823234299}
+    - target: {fileID: 850179853229279376, guid: 93bed56ee7cca48af84a2872184feab2,
+        type: 3}
       propertyPath: maxHealth
-      value: 30000
+      value: 2200
       objectReference: {fileID: 0}
     - target: {fileID: 2255689302863939883, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
@@ -45895,11 +45900,7 @@ PrefabInstance:
     - {fileID: 2089085060585378131, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
     - {fileID: 1062735443992755148, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7238565672315307510, guid: 93bed56ee7cca48af84a2872184feab2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 529094719}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5578276658901303269, guid: 93bed56ee7cca48af84a2872184feab2,
         type: 3}
@@ -45910,12 +45911,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 63540705}
   m_SourcePrefab: {fileID: 100100000, guid: 93bed56ee7cca48af84a2872184feab2, type: 3}
---- !u!4 &1995815523 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7238565672315307510, guid: 93bed56ee7cca48af84a2872184feab2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1995815522}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1996429439 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4038888298651656586, guid: a4140530cfba26e4f88f22ea8174b6f4,
@@ -58843,6 +58838,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1185667621}
+  - {fileID: 529094719}
   - {fileID: 1995815522}
   - {fileID: 908687780}
   - {fileID: 776673519}

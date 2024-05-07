@@ -69,7 +69,7 @@ public class EvilCharacter : MonoBehaviour
 
     }
 
-    void OnCollisionEnter(Collision col) { 
+    void OnCollisionStay(Collision col) { 
         if (col.gameObject.CompareTag("Player")) AttackPlayer(); 
     }
 

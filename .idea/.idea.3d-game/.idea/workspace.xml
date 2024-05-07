@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f32e219b-2ad4-4439-8e89-b90d50d444ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3d-game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3d-game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EvilBarney.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EvilBarney.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EvilTeletubbiesForest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EvilTeletubbiesForest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/EvilCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/EvilCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +111,7 @@
       <workItem from="1714378855563" duration="1978000" />
       <workItem from="1714641558525" duration="2387000" />
       <workItem from="1714889579763" duration="4461000" />
+      <workItem from="1715078403975" duration="650000" />
     </task>
     <servers />
   </component>
